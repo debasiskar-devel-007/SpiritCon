@@ -24,6 +24,10 @@
     width: 190px;
     line-height: 36px;}
 
+    
+.redesign .contentwrapper {width: 1600px !important;margin: 0 auto;display: block;}
+
+
 
 @media only screen and (max-width: 1800px) {
 
@@ -36,7 +40,9 @@
 }
 
 
-
+@media(max-width:1600px){
+    .redesign .contentwrapper {width: 96% !important;}
+}
 
 @media only screen and (max-width: 1600px) {
 

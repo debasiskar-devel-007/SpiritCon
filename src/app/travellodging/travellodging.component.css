@@ -1,0 +1,18 @@
+.homebg{
+    background: url('../../assets/images/home/mainbg.jpg') no-repeat top 85% center;
+    background-size: cover;
+    padding: 0px; margin-bottom: 0;
+    min-height: 1px;
+}
+
+.bannerblockinner .banner-logo-travellodging{
+    position: absolute;
+    right: -21px;
+    top: 17px;
+}
+
+.redesign .contentwrapper {width: 1600px !important;margin: 0 auto;display: block;}
+
+@media(max-width:1600px){
+.redesign .contentwrapper {width: 96% !important;}
+}
