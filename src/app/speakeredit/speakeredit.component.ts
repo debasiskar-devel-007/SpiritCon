@@ -60,8 +60,6 @@ export class SpeakereditComponent implements OnInit {
         this.uploadInput = new EventEmitter<UploadInput>();
         this.humanizeBytes = humanizeBytes;
         this.ckeditorContent = '';
-        this.basepath = [];
-        this.image = [];
     }
 
     ngOnInit() {
@@ -188,7 +186,7 @@ export class SpeakereditComponent implements OnInit {
                     "name": this.configData.files[0].name,
                     "type": this.configData.files[0].type
                 };
-                console.log('+++++++++++',typeof(formval.inventory_image.basepath));
+                // console.log('+++++++++++',typeof(formval.inventory_image.basepath));
         } else {
             formval.inventory_image = false;
             this.imageErrCode = true;
