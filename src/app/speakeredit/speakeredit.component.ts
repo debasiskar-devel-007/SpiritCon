@@ -49,9 +49,7 @@ export class SpeakereditComponent implements OnInit {
     public errckeditor;
     public ErrCode: boolean = false;
     public imageErrCode: boolean = false;
-    public fullimg = '';
-    // public basepath: any;
-    // public image: any;
+    public fullimg:any = {};
 
     constructor(fb: FormBuilder, private _http: Http, private router: Router, private route: ActivatedRoute, private _commonservices: Commonservices) {
         this.fb = fb;
