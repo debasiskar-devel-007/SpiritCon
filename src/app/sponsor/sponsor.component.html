@@ -1,5 +1,5 @@
 <app-header></app-header>
-<div class="container-fluid bannerblock">
+<div class="container-fluid bannerblock bannerblockinner">
   <div class="item ">
     <div class="row row-eq-height">
       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bannerblockright pull-right">
@@ -19,10 +19,10 @@
             <li><a style="cursor: pointer" (click)="callmodalforagenda()"  class="bannerblackbtn"><span>Readers</span></a></li> 
             <li><a  style="cursor: pointer" (click)="callmodalforagendamoalnew()" class="bannerblackbtn"><span>See Agenda</span></a></li> -->
 
-            <li><a [routerLink]="['/boothtable']" class="bannerblackbtn"  target="_self"><span>Vendors</span></a></li>
-            <li><a [routerLink]="['/readers']" class="bannerblackbtn" target="_self"><span>Readers</span></a></li>
-
-           <li><a [routerLink]="['/agenda']" class="bannerblackbtn"><span>See Agenda</span></a></li> 
+            
+            <li><a [routerLink]="['/boothtable']" target="_self" class="bannerblackbtn btngreengrad"><span>Vendors</span></a></li>
+            <li><a [routerLink]="['/readers']" target="_self" class="bannerblackbtn btnbluegrad"><span>Readers</span></a></li>
+            <li><a [routerLink]="['/agenda']" class="bannerblackbtn btnpurplegrad">See Agenda</a></li>
            <!-- <li><a  style="cursor: pointer" (click)="callmodalforagendamoalnew()" class="bannerblackbtn"><span>See Agenda</span></a></li>   -->
           </ul>
         </div>

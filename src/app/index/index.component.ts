@@ -31,6 +31,8 @@ export class IndexComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  
    /* ngAfterViewChecked(){
         $('.carousel').carousel({
             interval: 6000
@@ -84,3 +86,9 @@ export class IndexComponent implements OnInit {
         this.isModalShowncom2 = true;
     }
 }
+
+// $('#carousel .item .row img').each(function() {
+//     var imgSrc = $(this).attr('src');
+//     $(this).parent().css({'background-image': 'url('+imgSrc+')'});
+//     $(this).remove();
+//   });
