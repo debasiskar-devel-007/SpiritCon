@@ -1,0 +1,19 @@
+.banner-img1{background:url(../../assets/images/boothtable/boothtablebanner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
+.homebg{background:url(../../assets/images/boothtable/mainbg.jpg) no-repeat top 0 center !important;background-size:cover;padding:0;margin-bottom:0;min-height:1px}
+.redesign .contentwrapper{width:1600px!important;margin:0 auto;display:block}
+
+@media(max-width:1800px) {
+.banner-img1 {background-position:right 30% center;}
+}
+@media(max-width:1666px) {
+.redesign .contentwrapper{width:96%!important}
+.homebg{background-position:top 85% center!important}
+}
+@media(max-width:1440px) {
+.banner-img1 {background-position: right 25% center;}
+}
+@media(max-width:1280px) {
+}
+@media(max-width:1199px) {
+.banner-img1{background-position: top right!important;background-size: 210%!important;padding: 29px 0;margin-bottom: 0;min-height: 1px;padding-top: 40%;}
+}

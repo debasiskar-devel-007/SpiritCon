@@ -1,36 +1,53 @@
 <app-header></app-header>
 
-<div class="container-fluid bannerblock bannerblockinner">
-  <div class="item">
+<div class="container-fluid bannerblock bannerblockinnernew redesign">
+  <div class="item banner-img1">
     <div class="row row-eq-height">
-      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bannerblockright pull-right">
-        <img src="../../assets/images/banner-img1-boothtable.jpg"/>
-      </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bannerblockleft">
-        <div class="bannerblockcontent">
-          <h2>April 4th and 5th 2020 join us for 2 incredible days of Pagan spirit, magic, healing and community!</h2>
-          <ul class="list-inline">
-         <!--   <li><a href="https://www.brownpapertickets.com/event/3161483" target="_blank" class="getstarted"><span>Buy Tickets</span></a></li>-->
-            <li><a href="https://www.eventbrite.com/e/spiritcon-2020-tickets-64701065629?fbclid=IwAR2Y2CfhMWxveRfn9E-DWSi13SHS_X-bm3auszxtJxumm3GU2jA4ThhQSqs" target="_blank" class="getstarted"><span>Buy Tickets</span></a></li>
-            <!--<li><a (click)="callmodalforbuybooth()" target="_self" class="bannerblackbtn"><span>Buy Booths or tables</span></a></li>-->
-            <!-- <li><a style="cursor: pointer" (click)="callmodalforagenda()"  class="bannerblackbtn"><span>Vendors</span></a></li>
-            <li><a style="cursor: pointer" (click)="callmodalforagenda()"  class="bannerblackbtn"><span>Readers</span></a></li>
+      <!-- <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bannerblockright pull-right">
+        <img src="../../assets/images/banner-img1-agenda.jpg"/>
+      </div> -->
+      <div class="container contentwrapper">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bannerblockleft">
+          <div class="bannerblockcontent">
+            <img class="logobanner" src="../../assets/images/home/logo.png" alt="logo" />
+            <h2 class="banner-title">
+              <strong>April 4th and 5th 2020 join us</strong>
+              <strong>for 2 incredible days of Pagan spirit, magic,</strong>
+              <strong>healing and community!</strong>
+            </h2>
+            <!-- <h3>Held at the beautiful Davis Convention Center in Layton, UT </h3>
+            <h4>1651 N 700 W, Layton, UT 84041</h4> -->
 
-     
-            <li><a  style="cursor: pointer" (click)="callmodalforagendamoalnew()" class="bannerblackbtn"><span>See Agenda</span></a></li> -->
-
-            <li><a [routerLink]="['/boothtable']" target="_self" class="bannerblackbtn btngreengrad"><span>Vendors</span></a></li>
-            <li><a [routerLink]="['/readers']" target="_self" class="bannerblackbtn btnbluegrad"><span>Readers</span></a></li>
-            <li><a [routerLink]="['/agenda']" class="bannerblackbtn btnpurplegrad">See Agenda</a></li>
-
-           <!-- <li><a  style="cursor: pointer" (click)="callmodalforagendamoalnew()" class="bannerblackbtn"><span>See Agenda</span></a></li>   -->
-          </ul>
+            <!-- <h2>April 4th and 5th 2020 join us for 2 incredible days of Pagan spirit, magic, healing and community!</h2> -->
+            <ul class="list-inline">
+              <!-- <li><a href="https://www.brownpapertickets.com/event/3161483" target="_blank" class="getstarted"><span>Buy Tickets</span></a></li>-->
+              <li>
+                <a href="https://www.eventbrite.com/e/spiritcon-2020-tickets-64701065629?fbclid=IwAR2Y2CfhMWxveRfn9E-DWSi13SHS_X-bm3auszxtJxumm3GU2jA4ThhQSqs"
+                  target="_blank" class="getstarted2"><span>Buy Tickets</span></a>
+              </li>
+              <!--<li><a (click)="callmodalforbuybooth()" target="_self" class="bannerblackbtn"><span>Buy Booths or tables</span></a></li>-->
+              <!--Pending Development--->
+              <!--   <li><a [routerLink]="['/boothtable']" target="_self" class="bannerblackbtn"><span>Vendors & Readers</span></a></li>-->
+              <li>
+                <a [routerLink]="['/boothtable']" target="_self"
+                  class="bannerblackbtn btngreengrad"><span>Vendors</span></a>
+              </li>
+              <li>
+                <a [routerLink]="['/readers']" target="_self"
+                  class="bannerblackbtn btnbluegrad"><span>Readers</span></a>
+              </li>
+              <li>
+                <a [routerLink]="['/agenda']" class="bannerblackbtn btnpurplegrad">See Agenda</a>
+              </li>
+              <!-- <li><a [routerLink]="['/agenda']" class="bannerblackbtn"><span>See Agenda</span></a></li> -->
+              <!-- <li><a  style="cursor: pointer" (click)="callmodalforagendamoalnew()" class="bannerblackbtn"><span>See Agenda</span></a></li>   -->
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
 
 
 <div class="container-fluid booth-table-block1">
@@ -305,7 +322,7 @@
 </div>-->
 
 
-<div class="container-fluid bottombannerblock2">
+<!-- <div class="container-fluid bottombannerblock2">
     <div class="bottombannerblock2-wrapper">
         <div class="row row-flex">
             <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -319,7 +336,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <!--<div class="container-fluid bottombannerblock">
@@ -344,7 +361,7 @@
 </div>-->
 
 <!---new section added 2018-02-20---->
-<div class="container-fluid bottombannerblock3">
+<!-- <div class="container-fluid bottombannerblock3">
   <img src="../../assets/images/bottombannerblock3bgsml.jpg" class="bottombannerblock3bgsml">
   <div class="bottombannerblock3-wrapper">
     <div class="row">
@@ -358,7 +375,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!---new section added 2018-02-20---->
 
 <app-footer></app-footer>

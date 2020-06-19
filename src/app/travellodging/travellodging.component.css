@@ -1,18 +1,7 @@
-.homebg{
-    background: url('../../assets/images/home/mainbg.jpg') no-repeat top 85% center;
-    background-size: cover;
-    padding: 0px; margin-bottom: 0;
-    min-height: 1px;
-}
-
-.bannerblockinner .banner-logo-travellodging{
-    position: absolute;
-    right: -21px;
-    top: 17px;
-}
-
-.redesign .contentwrapper {width: 1600px !important;margin: 0 auto;display: block;}
-
-@media(max-width:1600px){
-.redesign .contentwrapper {width: 96% !important;}
+.homebg{background:url(../../assets/images/travellodging/mainbg.jpg) no-repeat top 0 center !important;background-size:cover;padding:0;margin-bottom:0;min-height:1px}
+.bannerblockinner .banner-logo-travellodging{position:absolute;right:-11px;top:24px}
+.bannerblock{background:rgba(3,1,4,1);background:-moz-linear-gradient(-45deg,rgba(3,1,4,1) 0%,rgba(45,7,56,1) 29%,rgba(29,57,122,1) 100%);background:-webkit-gradient(left top,right bottom,color-stop(0%,rgba(3,1,4,1)),color-stop(29%,rgba(45,7,56,1)),color-stop(100%,rgba(29,57,122,1)));background:-webkit-linear-gradient(-45deg,rgba(3,1,4,1) 0%,rgba(45,7,56,1) 29%,rgba(29,57,122,1) 100%);background:-o-linear-gradient(-45deg,rgba(3,1,4,1) 0%,rgba(45,7,56,1) 29%,rgba(29,57,122,1) 100%);background:-ms-linear-gradient(-45deg,rgba(3,1,4,1) 0%,rgba(45,7,56,1) 29%,rgba(29,57,122,1) 100%);background:linear-gradient(135deg,rgba(3,1,4,1) 0%,rgba(45,7,56,1) 29%,rgba(29,57,122,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#030104',endColorstr='#1d397a',GradientType=1);overflow:hidden}
+.redesign .contentwrapper{width:1600px!important;margin:0 auto;display:block}
+@media(max-width:1600px) {
+.redesign .contentwrapper{width:96%!important}
 }
