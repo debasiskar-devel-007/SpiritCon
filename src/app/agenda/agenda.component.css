@@ -1,6 +1,12 @@
 .banner-img1{background:url(../../assets/images/agenda/agendabanner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
-.homebg{background:url(../../assets/images/agenda/mainbg.jpg) no-repeat top 0 center !important;background-size:cover;padding:0;margin-bottom:0;min-height:1px}
-.redesign .contentwrapper{width:1600px!important;margin:0 auto;display:block}
+.homebg{
+    /* background:url(../../assets/images/agenda/mainbg.jpg) no-repeat top 0 center !important;background-size:cover;padding:0;margin-bottom:0;min-height:1px */
+    background-image: url(../../assets/images/agenda/mainbg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.redesign .contentwrapper{width:1600px;margin:0 auto;display:block}
 @media(max-width:1666px) {
 .redesign .contentwrapper{width:96%!important}
 .homebg{background-position:top 85% center!important}

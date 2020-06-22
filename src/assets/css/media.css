@@ -14,7 +14,7 @@
 .contentwrapper{width:1700px!important}
 .bannerblockinner .bannerblockcontent h2{margin:0 0 5px!important;font-size:38px}
 .bannerblockleft .bannerblockcontent{margin-left:0!important}
-.indexblock6new{background-position:top -15px right 0!important}
+.indexblock6new{background-position:top 0 right 0!important}
 .bannerblockinner .banner-title strong{font-size:29px!important}
 .banneryellowbtn,.banneryellowbtn:hover{font-size:20px!important}
 .bannerblocklefttravelbg .bannerblackbtn,.bannerblocklefttravelbg .bannerblackbtn:hover{font-size:20px!important}
@@ -27,10 +27,10 @@
 .bottombannerblock2content h3{font-size:30px!important;line-height:30px!important}
 .bottombannerblock2content h2{font-size:21px!important}
 .bottombannerblock2 .banneryellowbtnsml,.bottombannerblock2 .banneryellowbtnsml:hover{font-size:22px!important}
-.agenda-block1-wrapper{width:96%!important;margin:0 auto!important;display:block!important}
+.agenda-block1-wrapper{width:100%!important;margin:0 auto!important;display:block!important}
 .bottombannerblock-wrapper{width:96%!important}
-.booth-table-block1-wrapper{width:96%!important;margin:0 auto!important;display:block!important}
-.presenters-block1-wrapper{width:96%!important;margin:0 auto!important;display:block!important}
+.booth-table-block1-wrapper{width:100%!important;margin:0 auto!important;display:block!important}
+.presenters-block1-wrapper{width:100%!important;margin:0 auto!important;display:block!important}
 .indexblock6contentwrapper .contentcentered{left:60%!important;width:700px!important}
 .indexblock6contentwrapper .contentcentered h2{font-size:40px!important;line-height:40px!important}
 .bannerblockcontent h2{font-size:40px!important}
@@ -38,9 +38,10 @@
 .indexblock5contentwrapper .contentcentered{width:750px!important}
 .indexblock7{background:url(../images/indexblock7bg.jpg) #2b1820 no-repeat right 90% center!important}
 .indexblock7contentwrapper .contentcentered{width:825px!important}
-.travellodging-block1-wrapper{width:96%!important;margin:0 auto!important;display:block!important}
+.travellodging-block1-wrapper{width:100%!important;margin:0 auto!important;display:block!important}
 .manublockwrapper *{box-shadow:none!important}
-.indexblock2new{background-position:right -15% center!important}
+.indexblock2new{background-position:right -10% top 4px!important}
+.booth-table .indexblock2new{background-position:left -10% top 20px!important}
 .indexblock4new{background-position:top 0 right -15%!important}
 }
 @media(max-width:1720px) {
@@ -81,17 +82,23 @@
 .bannerblockinner .bannerblockleft .bannerblockcontent{width:98%!important;text-align:center!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:45px!important}
 .redesign .contentwrapper{width:96%!important}
-.indexblock2new{margin-top:-4%!important}
+/* .indexblock2new{margin-top:-4%!important} */
 .indexblock3new{margin-top:-6%!important}
 .indexblock4new{margin-top:-2%!important}
 .indexblock8new .indexblock1contentimgleft{left:-25px!important}
 .indexblock5new .indexblock5lists li{padding:10px!important}
 .indexblock7new .indexblock1contentleft p{font-size:23px!important}
-.indexblock1contentwrapper .contentcentered p{font-size:23px!important}
-.bannerblockinner .bannerblocklefttravelbg p{font-size:22px!important}
 .indexblock7new .indexblock1contentleft h2 {font-size: 47px!important;}
+.indexblock1contentwrapper .contentcentered p{font-size:22px!important}
+.bannerblockinner .bannerblocklefttravelbg p{font-size:22px!important}
 .titleheader h2.pagetitle strong {font-size: 34px !important;line-height:34px!important}
 .presenters-block1-wrapper h2 span.subtxt{font-size: 26px !important;line-height:26px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 53px !important;}
+
+.gotoblocknew .indexblock1contentleft h2 {font-size: 55px!important;}
+
+.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 42px !important;line-height: 42px!important;}
+
 }
 @media(max-width:1620px) {
 .indexblock8new .indexblock1contentleft p{max-width:78%}
@@ -122,26 +129,38 @@
 .logowrapper{margin-left:0!important}
 .contentwrapper{width:1500px!important}
 .indexblock2new{margin-top:-5%!important}
+
+
 .indexblock2new .purplebg{font-size:40px!important}
 .indexblock2new{background-position:right -18% top -5px!important}
-.indexblock3new{margin-top:-7%!important}
-.indexblock4new{margin-top:-1%!important;background-position:right -18% top -10px!important}
-.indexblock5new{margin-top:-80px!important}
-.indexblock6new{background-position:top -40px right 0!important}
+.indexblock3new{margin-top:-8%!important}
+.indexblock4new{margin-top:0!important;background-position:right -18% top -10px!important}
+.indexblock5new{margin-top:-50px!important}
+.indexblock6new{background-position:top -9px right 0!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:43px!important}
 .indexblock3new .list-inline>li .bannerblackbtn,.indexblock3new .list-inline>li .bannerblackbtn:hover{font-size:20px;height:53px}
 .indexblock4new .list-inline>li .bannerblackbtn,.indexblock4new .list-inline>li .bannerblackbtn:hover{font-size:20px;height:53px}
+.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 43px !important;}
+
+.booth-table .indexblock2new{margin-top:-3%!important}
+.booth-table .indexblock2new{background-position: left -25% top 20px!important;}
 }
 @media(max-width:1560px) {
 .indexblock7new .indexblock1contentleft h2{font-size:44px!important;line-height:48px}
 .indexblock4new{margin-top:0!important}
-.indexblock6new{background-position:top -34px right 0!important}
+.indexblock6new{background-position:top -11px right 0!important}
 .indexblock2new{margin-top:-4%!important}
-.indexblock1contentwrapper .contentcentered p{font-size:22px!important}
+.indexblock1contentwrapper .contentcentered p{font-size:21px!important}
 .indexblock4new{background-position:top -9px right -23%!important}
 .indexblock7new .indexblock1contentleft p{font-size:21px!important}
-.indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0 22px 0 0 !important}
+.indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0 19px 0 0 !important}
 .indexblock8new .indexblock1contentleft h2{font-size:32px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn { bottom: 35px !important;}
+.booth-table-block-bg {background-position: right -100px bottom !important;}
+.readers-table-block-bg {background-position: right -100px bottom !important;}
+
+.gotoblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px}
+.gotoblocknew .indexblock1contentleft .clickherebtn {right: -18%;}
 }
 @media(max-width:1500px) {
 .menudiv .navbar li{padding:0 16px}
@@ -165,15 +184,15 @@
 .indexblock2{background:#c9d0d0 url(../images/indexblock2-img2.png) no-repeat right -30% center!important}
 .indexblock3contentwrapper .contentcentered{width:850px!important}
 .indexblock3contentwrapper .contentcentered h2{font-size:40px!important;line-height:40px!important}
-.indexblock1contentwrapper .contentcentered p{font-size:20px!important;line-height:24px!important}
+.indexblock1contentwrapper .contentcentered p{font-size:20px!important;}
 .bannerblackbtn,.bannerblackbtn:hover{font-size:18px;padding:13px 12px;height:51px}
 .bannerblock .bannerblackbtn,.bannerblock .bannerblackbtn:hover{height:51px!important}
-.indexblock2new{background-position:right -30% top -5px!important;margin-top:-7%!important}
+.indexblock2new {background-position: right -32% top -5px!important;margin-top: -5%!important;}
 .indexblock1contentwrapper .indexblock1img1leftwrapper{flex:1 0 43%!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:42px!important}
 .indexblock4new{background-position:top -9px right -28%!important}
 .indexblock5new .indexblock5lists li{font-size:16px!important}
-.indexblock6new{background-position:top -34px right -8%!important}
+.indexblock6new{background-position:top -17px right -8%!important}
 .indexblock3new .list-inline>li .bannerblackbtn,.indexblock3new .list-inline>li .bannerblackbtn:hover{font-size:18px;height:49px}
 .indexblock4new .list-inline>li .bannerblackbtn,.indexblock4new .list-inline>li .bannerblackbtn:hover{font-size:18px;height:49px}
 .getstarted2{font-size:18px!important}
@@ -186,7 +205,17 @@
 
 .bannerblock.bannerblockinnernew .bannerblackbtn, .bannerblock.bannerblockinnernew .bannerblackbtn:hover {font-size: 18px !important;padding: 13px 12px !important;height: 51px !important;}
 .bannerblock.bannerblockinnernew .list-inline .getstarted2{height: 51px !important;line-height: 15px !important;}
+
+.booth-table .indexblock2new{margin-top:-4%!important}
+.booth-table .indexblock2new{background-position: left -40% top 27px!important;}
+
+.gotoblocknew .indexblock1contentleft h2{font-size: 52px!important;line-height: 52px!important;}
 }
+
+@media(max-width:1480px) {
+.gotoblocknew .indexblock1contentleft h2 {font-size: 51px!important;line-height: 51px!important;}
+}
+
 @media(max-width:1440px) {
 .bottombannerblock3content h3{font-size:22px!important;line-height:28px!important}
 .bottombannerblock3content h2{font-size:25px!important;line-height:27px!important}
@@ -203,14 +232,19 @@
 .bannerblockcontent h3{font-size:24px!important}
 .bannerblockcontent h4{font-size:24px!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:40px!important}
+.gotoblocknew .indexblock1contentleft h2 {font-size: 47px!important;line-height: 50px!important;}
 }
 @media(max-width:1420px) {
 .indexblock1contentwrapper .indexblock1img1leftwrapper{flex:1 0 41%!important}
-.indexblock6new{background-position:top -34px right -16%!important}
+.indexblock6new{background-position:top -18px right -16%!important}
 .indexblock4new{background-position:top -9px right -47%!important}
 .clickherebtn,.clickherebtn:hover{font-size:20px!important}
 
 .indexblock9new .indexblock1contentimg{width:36%!important}
+.indexblock1contentwrapper .contentcentered p {font-size: 19px!important;}
+.indexblock2new {background-position: right -41% top -5px!important;margin-top: -7%!important;}
+.booth-table-block-bg {background-position: right 120% bottom !important;}
+.readers-table-block-bg {background-position: right -8% bottom !important;}
 }
 @media(max-width:1380px) {
 .getstarted2{font-size:20px!important}
@@ -222,7 +256,11 @@
 .indexblock2new .purplebg{padding:6px!important;font-size:44px!important;line-height:45px!important;font-size:35px!important}
 .triangle-bottom-left{left:70%!important}
 .indexblock2new{background-position:right -54% top -5px!important}
+
+.booth-table .indexblock2new{background-position: left -60% top 27px!important;}
+.booth-table-block1-wrapper h3 span.triangle-bottom-left {left: -13px !important;}
 }
+
 @media(max-width:1366px) {
 .bannerblockinner .banner-title strong{font-size:20px!important;line-height:24px!important}
 .bannerblocklefttravelbg .bannerblackbtn,.bannerblocklefttravelbg .bannerblackbtn:hover{color:#fff!important;font-size:15px!important;line-height:28px!important}
@@ -246,13 +284,16 @@
 .bottombannerblock3{background:url(../images/bannerbootom3imgleft.png) left -40% center no-repeat,url(../images/bannerbootom3imgright.png) right -30% center no-repeat,url(../images/bottombannerblock3mainbg.jpg) center center no-repeat!important}
 .bannerblackbtn,.bannerblackbtn:hover{font-size:19px!important;padding:10px!important;height:49px!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:39px!important;line-height:39px!important}
-.indexblock2new{margin-top:-10%!important}
+/* .indexblock2new{margin-top:-10%!important} */
 .indexblock3new{margin-top:-10%!important}
 .indexblock4new{background-position:top -9px right -51%!important}
 .indexblock9bg{background-position:left 75% center!important}
 .indexblock9new .indexblock1contentleft p{font-size:20px!important}
-.titleheader h2.pagetitle strong {font-size: 32px !important;line-height:32px!important}
+.titleheader h2.pagetitle strong {font-size: 31px !important;line-height:31px!important}
 .presenters-block1-wrapper h2 span.subtxt{font-size: 24px !important;line-height:24px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 25px !important;}
+.booth-table-block1 .titleheader h2.pagetitle .subtxt {font-size: 21px!important;line-height: 21px!important;}
+.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 36px !important;line-height: 36px!important;}
 }
 @media(max-width:1320px) {
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:26px!important;line-height:30px!important}
@@ -269,21 +310,24 @@
 .indexblock5{background:url(../images/indexblock5bg.jpg) #334053 no-repeat right 60% center!important}
 .indexblock4{height:360px!important}
 .indexblock4contentwrapper{position:relative!important;height:360px!important}
-.indexblock1contentwrapper .contentcentered p{font-size:18px!important;line-height:24px!important}
-.indexblock1contentwrapper .contentcentered h2 strong{font-size:39px!important}
+.indexblock1contentwrapper .contentcentered p{font-size:19px!important;}
 .indexblock4new{background-position:top -9px right -62%!important}
-.indexblock1contentwrapper .contentcentered h2 strong{font-size:39px!important}
-.indexblock2new{background-position:right -65% top -5px!important}
+.indexblock1contentwrapper .contentcentered h2 strong{font-size:38px!important}
 .indexblock7new .indexblock1contentleft h2{font-size: 36px!important;line-height: 38px!important;}
 .indexblock8new .indexblock1contentleft h2{font-size:26px!important;line-height: 30px!important;}
 .indexblock7new .indexblock1contentleft p{max-width:93%!important}
 .indexblock6new{background-position:top -34px right -25%!important}
 .bannerblockinner .bannerblocklefttravelbg p{font-size:18px!important}
-.indexblock2new{margin-top:-12%!important}
 .indexblock8new .indexblock1contentleft {padding: 15px 15px 25px 27% !important;}
-.indexblock6new {background-position:top -15px right -30% !important;}
-.titleheader h2.pagetitle strong {font-size: 30px !important;line-height:30px!important}
+.indexblock6new {background-position:top -25px right -20% !important;}
+.titleheader h2.pagetitle strong {font-size: 29px !important;line-height:29px!important}
 .presenters-block1-wrapper h2 span.subtxt{font-size: 20px !important;line-height:20px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 20px !important;}
+.indexblock8new {min-height: 1px !important;}
+.indexblock7new {min-height: 1px !important;}
+
+.gotoblocknew .indexblock1contentleft h2{font-size: 44px!important;line-height: 45px!important;}
+
 }
 @media(max-width:1300px) {
 .bannerblocklefttravelbg .bannerblockcontent h4{max-width:82%!important}
@@ -293,6 +337,15 @@
 .indexblock1contentwrapper .contentcentered h2{font-size:34px!important;line-height:34px!important}
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:24px!important;line-height:31px!important}
 .bannerblocklefttravelbg .bannerblockcontent h2 img{max-width:19%!important;margin-left:10px!important}
+.indexblock6new .indexblock1contentwrapper .contentcentered p {padding: 0 17px 0 0 !important;}
+.indexblock8new .indexblock1contentimgleft {width: 248px!important;bottom: -33px !important;}
+.indexblock6new {background-position: top -25px right -28% !important;}
+.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 14px !important;}
+.indexblock1contentwrapper .contentcentered p {font-size: 18px!important;}
+.booth-table-block-bg {background-position: right 100% bottom !important;}
+.readers-table-block-bg {background-position: right -15% bottom !important;}
+.booth-table .indexblock2new {background-position: left -95% top 27px!important;}
+
 }
 @media(max-width:1280px) {
 .bottombannerblock3-wrapper{width:61%!important}
@@ -334,15 +387,18 @@
 .indexblock9new .indexblock1contentleft .clickherebtn{margin-bottom:20px!important;margin-top:0}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:38px!important;line-height:38px!important}
 .indexblock1new .indexblock1contentwrapper .contentcentered{margin-top:0!important}
-.indexblock2new{margin-top:-14%!important;background-position:right -72% top -5px!important}
+.indexblock2new{margin-top:-11%!important;background-position:right -72% top -5px!important}
 .indexblock3new{margin-top:-16%!important}
 .indexblock1contentwrapper .indexblock1img1leftwrapper{margin-top:0!important;flex:1 0 41%!important;height:100%}
 .indexblock3new .indexblock1contentwrapper .indexblock1img1leftwrapper{margin-top:46px!important}
-.indexblock4new{margin-top:2%!important}
-.indexblock5new{margin-top:-13%!important}
+.indexblock4new{margin-top:4%!important}
+.indexblock5new{margin-top:-8%!important}
 .indexblock5new .indexblock5lists li{font-size:15px!important}
 .indexblock6new{min-height:565px!important}
 .bannerblockinner .banner-logo-travellodging{right:-8px!important;width:137px}
+.indexblock1contentwrapper .contentcentered p {font-size: 18px!important;}
+.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 12px !important;}
+.titleheader h2.pagetitle strong {font-size: 28px !important;line-height: 28px!important;}
 }
 @media(max-width:1260px) {
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:37px!important;line-height:37px!important}
@@ -362,6 +418,9 @@
 .indexblock8new .indexblock1contentimgleft{width:255px!important}
 .clickherebtn,.clickherebtn:hover{font-size:17px!important}
 .indexblock8new{margin-top:15px;margin-bottom:25px;min-height:200px}
+
+.gotoblocknew .indexblock1contentleft h2{ font-size: 43px!important;line-height: 43px!important;}
+
 }
 @media(max-width:1220px) {
 .menudiv .navbar li{padding:0 10px!important}
@@ -374,6 +433,7 @@
 .indexblock4new{background-position:top -9px right -85%!important}
 .indexblock5new .indexblock5lists li{font-size:15px!important;padding:8px!important}
 .indexblock1contentwrapper .indexblock1img1leftwrapper{height:96%}
+.titleheader h2.pagetitle strong {font-size: 27px !important;line-height: 27px!important;}
 }
 @media(max-width:1199px) {
 .bannerblockcontent h4{margin:0 0 15px!important}
@@ -387,7 +447,7 @@
 .indexblock1new{padding:30px 0;min-height:1px}
 .indexblock1new .indexblock1contentwrapper .contentcentered{margin-top:30px!important}
 .indexblock1contentimg{margin-top:30px!important;margin-bottom:10px!important;width:100%}
-.indexblock1contentleft{padding-right:0!important;padding-left:0!important;flex-wrap:wrap;width:100%!important;align-items:center!important;justify-content:center;margin-left:auto!important;margin-right:auto!important}
+.indexblock1contentleft{padding-right:0!important;padding-left:0!important;flex-wrap:wrap;width:98%!important;align-items:center!important;justify-content:center;margin-left:auto!important;margin-right:auto!important;margin-top: 0!important;}
 .indexblock1content{justify-content:center!important;flex-wrap:wrap;align-items:center!important;flex-direction:column}
 .indexblock1contentwrapper{flex-direction:column!important}
 .indexblock2new{padding:30px 0!important;margin-top:-5%!important;min-height:1px!important}
@@ -404,10 +464,11 @@
 .indexblock6new{padding:30px 0;margin-top:-5%!important;min-height:1px!important;background-position:top center!important;padding-top:84%!important;padding-bottom:30px!important;background-size:100%!important}
 .indexblock6new .indexblock1content{flex-direction:column!important;justify-content:center!important;align-items:center!important}
 .indexblock6new .indexblock1contentleft .indexblock2contentimg{margin-right:auto!important;margin-left:auto;}
-.indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0!important}
+.indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0!important;margin-top: -15px!important;}
 .indexblock7new{margin-top:0;min-height:1px}
 .indexblock7bg{padding:15px!important;display:flex!important;align-items:stretch;position:relative;border-radius:10px;background-size:cover;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;background:rgba(255,234,3,1)!important;background:-moz-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:-webkit-gradient(left top,left bottom,color-stop(0%,rgba(255,234,3,1)),color-stop(25%,rgba(255,234,3,1)),color-stop(55%,rgba(255,233,92,1)),color-stop(100%,rgba(254,207,0,1)))!important;background:-webkit-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:-o-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:-ms-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:linear-gradient(to bottom,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffea03',endColorstr='#fecf00',GradientType=0)!important}
 .indexblock7new .indexblock1contentleft .clickherebtn{position:inherit;right:0;bottom:0;margin:0 auto}
+.indexblock7new .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
 .indexblock7new .indexblock1contentleft h2{font-size:24px!important;line-height:28px!important}
 .indexblock7new .indexblock1contentleft h2 br{display:none!important}
 .indexblock7new .indexblock7bg .indexblock1contentimg{margin-top:15px!important;margin-bottom: 15px !important;}
@@ -422,7 +483,7 @@
 .indexblock8new .indexblock1contentimg{border-top-left-radius:0!important;border-top-right-radius:0!important;border-bottom-right-radius:10px!important;border-bottom-left-radius:10px!important;width:100%!important;margin:0 auto!important}
 .indexblock8new .indexblock1contentimg img{border-top-left-radius:0!important;border-top-right-radius:0!important;border-bottom-right-radius:10px!important;border-bottom-left-radius:10px!important}
 .indexblock8new .indexblock8left .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;width:210px;margin:0 auto 30px}
-.indexblock7new .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
+
 .redesign .contentwrapper{width:100%!important}
 .indexblock9bg{background:rgba(13,21,32,1)!important;background:-moz-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:-webkit-gradient(left top,left bottom,color-stop(25%,rgba(13,21,32,1)),color-stop(70%,rgba(222,6,31,1)),color-stop(100%,rgba(210,13,23,1)))!important;background:-webkit-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:-o-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:-ms-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:linear-gradient(to bottom,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d1520',endColorstr='#d20d17',GradientType=0)!important}
 .indexblock9new.redesign .contentwrapper{width:100%!important;flex-wrap:wrap;align-items:center;justify-content:center}
@@ -482,7 +543,7 @@
 .row-eq-height{display:inline-block!important;width:100%}
 .bannerblock .bannerblockleft .bannerblockcontent{position:inherit!important;top:0!important;left:0!important;transform:inherit!important;width:96%!important;text-align:center!important;margin-top:0!important;margin-left:auto!important;margin-right:auto!important}
 .bannerblock .item.active .d-block.w-100.bannerimg{width:100%}
-.bannerblock .bannerblockleft .bannerblockcontent .logobanner{max-width:100%;margin-bottom:15px!important}
+.bannerblock .bannerblockleft .bannerblockcontent .logobanner{max-width:100%;margin-bottom:20px!important}
 .slidermovecls{position:absolute!important;right:20px!important;bottom:inherit!important;width:160px!important;top:94px}
 .indexblock1contentwrapper{position:relative!important;height:auto!important}
 .indexblock1img1leftwrapper{position:inherit!important;top:0!important;left:0!important;transform:inherit!important;width:100%!important;text-align:center!important}
@@ -565,7 +626,43 @@
 
 .bannerblock.bannerblockinnernew .list-inline .bannerblackbtn, .bannerblock.bannerblockinnernew .list-inline .bannerblackbtn:hover {font-size: 18px!important;}
 .agenda-block1 {padding-top: 30px!important;}
-.bannerblock.bannerblockinnernew .list-inline {width: 100%!important;}
+.bannerblock.bannerblockinnernew .list-inline {width: 100%!important;margin-top: 20px!important;}
+
+.booth-table-block-bg {background-position: bottom right !important;padding-bottom: 55% !important;background-size: 105%;}
+.readers-table-block-bg {    background-position: bottom right !important;
+    padding-bottom: 100% !important;
+    background-size: 100%;}
+.booth-table-block1 .row-flex {justify-content: center;display: flex;}
+.booth-table-block1-wrapper h3 span.triangle-bottom-left{left: -13px !important;}
+.booth-table-block1-wrapper h3 span {font-size: 32px !important;}
+.singleboothtablecontent .oval label {font-size: 18px!important;}
+.singleboothtablecontent .boothtabledttime ul li {font-size: 14px!important;line-height: 14px!important;}
+.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 33px !important;line-height: 36px!important;}
+.booth-table-block1 .titleheader h2.pagetitle .subtxt {max-width: 100%!important;}
+
+
+.gotoblocknew{margin-top:0 !important;min-height:1px;}
+.gotoblocknewbg{
+    flex-wrap: wrap;
+    align-items: center !important;
+    justify-content: center;
+    text-align: center;
+    background: url(../images/boothtable/gotoblocknewimgbg.jpg) !important;
+    padding: 15px 0 15px!important;
+    position: relative !important;
+    border-radius: 10px !important;
+    background-size: 240% !important;
+    padding-top: 35% !important;
+    background-repeat: no-repeat !important;
+    background-position: top right !important;
+    background-color: #ec620a !important;
+}
+.gotoblocknew .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
+.gotoblocknew .indexblock1contentleft h2{font-size:24px!important;line-height:28px!important}
+.gotoblocknew .indexblock1contentleft h2 br{display:none!important}
+.gotoblocknew .gotoblocknewbg .indexblock1contentimg{margin-top:15px!important;margin-bottom: 15px !important;}
+
+
 }
 @media(max-width:1110px) {
 .bannerblockleft .list-inline > li{display:inline-block!important;padding-right:0!important;padding-left:0!important;margin-top:10px!important}
@@ -576,6 +673,7 @@
 .bottombannerblockcontent h3{font-size:19px!important;line-height:24px!important}
 .titleheader h2.pagetitle strong {font-size: 30px !important;line-height:30px!important}
 .presenters-block1-wrapper h2 span.subtxt{font-size: 22px !important;line-height:22px!important}
+.singleboothtablecontent .boothtabledttime ul li {font-size: 13px!important;}
 }
 @media(max-width:991px) {
 .travellodging-maincontent .singletravellodging{width:100%!important}
@@ -657,6 +755,7 @@
 
 .bannerblock.bannerblockinnernew .list-inline li{width:49%!important;height:auto!important;border:0 solid #fff!important;padding:0!important;margin:.5%!important}
 .presenters-block1-wrapper h2 span.subtxt {font-size: 22px !important;line-height: normal !important;}
+.booth-table-block1 .titleheader h2.pagetitle .subtxt {font-size: 18px!important;line-height: 21px!important;}
 
 }
 @media(max-width:640px) {
@@ -690,12 +789,16 @@
 .bannerblockcontent ul.list-inline{margin:0!important}
 .bannerblock .bannerblackbtn,.bannerblock .bannerblackbtn:hover{height:auto!important;width:100%!important}
 .bannerblockcontent ul.list-inline>li{width:100%!important}
+.booth-table-block1-wrapper h3 {flex-wrap: wrap!important;}
+.gotoblocknewbg { padding-top: 37% !important;}
 
-h3.pageblocktitle {font-size: 26px!important;width: 80%!important;}
+h3.pageblocktitle {font-size: 20px!important;width: 80%!important;}
 .bannerblock.bannerblockinnernew .list-inline {width: 100%!important;}
 .bannerblock.bannerblockinnernew .list-inline li {width: 100%!important;margin: .5% 0!important;}
 .presenters-block1-wrapper h2 span.subtxt {font-size: 18px !important;}
 .singlepresenterscontent .oval label {font-size: 18px!important;}
+.banner-title strong {font-size: 24px!important;line-height: 30px!important;}
+.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 22px !important;line-height: 26px!important;}
 }
 @media(max-width:480px) {
 .footermenu{margin-top:10px!important}
@@ -720,6 +823,7 @@ h3.pageblocktitle {font-size: 26px!important;width: 80%!important;}
 .indexblock3new .indexblock1contentwrapper .contentcentered p{padding:0 10px!important}
 .indexblock2new .purplebg{width:100%!important}
 h3.pageblocktitle {font-size: 20px!important;}
+
 }
 @media(max-width:360px) {
 .indexblock4contentwrapper ul li{display:block!important;padding-right:0!important;padding-left:inherit!important;width:100%!important;margin:0 auto 10px!important;text-align:center!important;display:block!important;float:none!important}

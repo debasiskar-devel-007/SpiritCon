@@ -1,10 +1,15 @@
-.banner-img1{background:url(../../assets/images/home/banner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:30px 0;margin-bottom:0;min-height:1px}
-.homebg{background:url(../../assets/images/home/mainbg.jpg) no-repeat top 95% center;background-size:cover;padding:0;margin-bottom:0;min-height:1px}
+.banner-img1{background:url(../../assets/images/home/banner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:38px 0 30px;margin-bottom:0;min-height:1px}
+.homebg{
+  background-image: url("https://spiritconvention.com/mainbg1.4f1b520a89583b1cd384.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .redesign .contentwrapper{width:1600px!important;margin:0 auto;display:block}
 @media(max-width:1666px) {
 .redesign .contentwrapper{width:96%!important}
 .homebg{background-position:top 85% center!important}
 }
 @media(max-width:1199px) {
-.banner-img1{background-position:top right!important;background-size:157%!important;padding:29px 0;margin-bottom:0;min-height:1px;padding-top:50%}
+.banner-img1{background-position:top right!important;background-size:157%!important;padding:29px 0;margin-bottom:0;min-height:1px;padding-top:54%}
 }
