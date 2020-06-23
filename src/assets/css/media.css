@@ -11,7 +11,7 @@
 .bottombannerblock3content h2:before{top:-37px!important}
 .aboutblock1contentwrapper .contentcentered h2{font-size:32px!important;line-height:32px!important;margin-bottom:15px!important}
 .indexblock2contentwrapper .contentcentered{top:53%!important;left:55%!important}
-.contentwrapper{width:1700px!important}
+.contentwrapper{width:1700px}
 .bannerblockinner .bannerblockcontent h2{margin:0 0 5px!important;font-size:38px}
 .bannerblockleft .bannerblockcontent{margin-left:0!important}
 .indexblock6new{background-position:top 0 right 0!important}
@@ -60,7 +60,7 @@
 .indexblock4contentwrapper .contentcentered p{width:90%!important}
 .indexblock7{background:url(../images/indexblock7bg.jpg) #2b1820 no-repeat right 150% center!important}
 .bannerblockcontent h2{font-size:40px!important}
-.contentwrapper{width:1600px!important}
+.contentwrapper{width:1600px}
 .bottombannerblock2content h3{font-size:28px!important;line-height:28px!important}
 .bannerblocklefttravelbg .bannerblockcontent h2 img{margin-top:3px!important}
 }
@@ -82,23 +82,23 @@
 .bannerblockinner .bannerblockleft .bannerblockcontent{width:98%!important;text-align:center!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:45px!important}
 .redesign .contentwrapper{width:96%!important}
-/* .indexblock2new{margin-top:-4%!important} */
 .indexblock3new{margin-top:-6%!important}
 .indexblock4new{margin-top:-2%!important}
 .indexblock8new .indexblock1contentimgleft{left:-25px!important}
 .indexblock5new .indexblock5lists li{padding:10px!important}
 .indexblock7new .indexblock1contentleft p{font-size:23px!important}
-.indexblock7new .indexblock1contentleft h2 {font-size: 47px!important;}
+.indexblock7new .indexblock1contentleft h2{font-size:47px!important}
 .indexblock1contentwrapper .contentcentered p{font-size:22px!important}
 .bannerblockinner .bannerblocklefttravelbg p{font-size:22px!important}
-.titleheader h2.pagetitle strong {font-size: 34px !important;line-height:34px!important}
-.presenters-block1-wrapper h2 span.subtxt{font-size: 26px !important;line-height:26px!important}
-.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 53px !important;}
-
-.gotoblocknew .indexblock1contentleft h2 {font-size: 55px!important;}
-
-.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 42px !important;line-height: 42px!important;}
-
+.titleheader h2.pagetitle strong{font-size:34px!important;line-height:34px!important}
+.presenters-block1-wrapper h2 span.subtxt{font-size:26px!important;line-height:26px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn{bottom:53px!important}
+.gotoblocknew .indexblock1contentleft h2{font-size:55px!important}
+.booth-table-block1 .titleheader h2.pagetitle strong{font-size:42px!important;line-height:42px!important}
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:55px!important}
+.spiritconsponsorblocknew .indexblock1contentleft {margin-left: 5%!important;}
+.sponsorbannerdesignarrow1 {left: 40px!important;width: 270px !important;}
+.sponsorbannerdesignarrow2 {right: 30%!important;}
 }
 @media(max-width:1620px) {
 .indexblock8new .indexblock1contentleft p{max-width:78%}
@@ -129,8 +129,6 @@
 .logowrapper{margin-left:0!important}
 .contentwrapper{width:1500px!important}
 .indexblock2new{margin-top:-5%!important}
-
-
 .indexblock2new .purplebg{font-size:40px!important}
 .indexblock2new{background-position:right -18% top -5px!important}
 .indexblock3new{margin-top:-8%!important}
@@ -140,10 +138,9 @@
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:43px!important}
 .indexblock3new .list-inline>li .bannerblackbtn,.indexblock3new .list-inline>li .bannerblackbtn:hover{font-size:20px;height:53px}
 .indexblock4new .list-inline>li .bannerblackbtn,.indexblock4new .list-inline>li .bannerblackbtn:hover{font-size:20px;height:53px}
-.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 43px !important;}
-
-.booth-table .indexblock2new{margin-top:-3%!important}
-.booth-table .indexblock2new{background-position: left -25% top 20px!important;}
+.indexblock2new .indexblock1contentleft .clickherebtn{bottom:43px!important}
+.booth-table .indexblock2new{margin-top:-3%!important;background-position:left -25% top 20px!important}
+.sponsorbannerdesignarrow1 {left: 40px!important;width: 228px!important;}
 }
 @media(max-width:1560px) {
 .indexblock7new .indexblock1contentleft h2{font-size:44px!important;line-height:48px}
@@ -155,12 +152,16 @@
 .indexblock7new .indexblock1contentleft p{font-size:21px!important}
 .indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0 19px 0 0 !important}
 .indexblock8new .indexblock1contentleft h2{font-size:32px!important}
-.indexblock2new .indexblock1contentleft .clickherebtn { bottom: 35px !important;}
-.booth-table-block-bg {background-position: right -100px bottom !important;}
-.readers-table-block-bg {background-position: right -100px bottom !important;}
-
+.indexblock2new .indexblock1contentleft .clickherebtn{bottom:35px!important}
+.booth-table-block-bg{background-position:right -100px bottom!important}
+.readers-table-block-bg{background-position:right -100px bottom!important}
 .gotoblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px}
-.gotoblocknew .indexblock1contentleft .clickherebtn {right: -18%;}
+.gotoblocknew .indexblock1contentleft .clickherebtn{right:-18%}
+
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px}
+.spiritconsponsorblocknew .indexblock1contentleft .clickherebtn{right:-18%!important;}
+.spiritconsponsorblocknew .indexblock1contentleft {margin-left: 2%!important;}
+.sponsorbannerdesignarrow1 {left: 0!important;}
 }
 @media(max-width:1500px) {
 .menudiv .navbar li{padding:0 16px}
@@ -184,10 +185,10 @@
 .indexblock2{background:#c9d0d0 url(../images/indexblock2-img2.png) no-repeat right -30% center!important}
 .indexblock3contentwrapper .contentcentered{width:850px!important}
 .indexblock3contentwrapper .contentcentered h2{font-size:40px!important;line-height:40px!important}
-.indexblock1contentwrapper .contentcentered p{font-size:20px!important;}
+.indexblock1contentwrapper .contentcentered p{font-size:20px!important}
 .bannerblackbtn,.bannerblackbtn:hover{font-size:18px;padding:13px 12px;height:51px}
 .bannerblock .bannerblackbtn,.bannerblock .bannerblackbtn:hover{height:51px!important}
-.indexblock2new {background-position: right -32% top -5px!important;margin-top: -5%!important;}
+.indexblock2new{background-position:right -32% top -5px!important;margin-top:-5%!important}
 .indexblock1contentwrapper .indexblock1img1leftwrapper{flex:1 0 43%!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:42px!important}
 .indexblock4new{background-position:top -9px right -28%!important}
@@ -201,21 +202,22 @@
 .indexblock8new .indexblock1contentleft p{max-width:93%!important}
 .indexblock8new .indexblock1contentimgleft{width:270px!important}
 .indexblock8new .indexblock1contentleft{padding:15px 15px 25px 26% !important}
-.clickherebtn, .clickherebtn:hover {font-size: 18px !important;}
-
-.bannerblock.bannerblockinnernew .bannerblackbtn, .bannerblock.bannerblockinnernew .bannerblackbtn:hover {font-size: 18px !important;padding: 13px 12px !important;height: 51px !important;}
-.bannerblock.bannerblockinnernew .list-inline .getstarted2{height: 51px !important;line-height: 15px !important;}
-
-.booth-table .indexblock2new{margin-top:-4%!important}
-.booth-table .indexblock2new{background-position: left -40% top 27px!important;}
-
-.gotoblocknew .indexblock1contentleft h2{font-size: 52px!important;line-height: 52px!important;}
+.clickherebtn,.clickherebtn:hover{font-size:18px!important}
+.bannerblock.bannerblockinnernew .bannerblackbtn,.bannerblock.bannerblockinnernew .bannerblackbtn:hover{font-size:18px!important;padding:13px 12px!important;height:51px!important}
+.bannerblock.bannerblockinnernew .list-inline .getstarted2{height:51px!important;line-height:15px!important}
+.booth-table .indexblock2new{margin-top:-4%!important;background-position:left -40% top 27px!important}
+.gotoblocknew .indexblock1contentleft h2{font-size:52px!important;line-height:52px!important}
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:52px!important;line-height:52px!important}
+.sponsorbannerdesignarrow1 {width: 200px!important;}
 }
-
 @media(max-width:1480px) {
-.gotoblocknew .indexblock1contentleft h2 {font-size: 51px!important;line-height: 51px!important;}
-}
+.gotoblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px!important}
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px!important}
+/* .sponsorbannerdesignarrow1 {left: -162px!important;width: 240px;} */
+.spiritconsponsorblocknew .indexblock1contentleft h3 {font-size: 22px!important;line-height: 24px!important;margin-top: 25px!important;}
 
+
+}
 @media(max-width:1440px) {
 .bottombannerblock3content h3{font-size:22px!important;line-height:28px!important}
 .bottombannerblock3content h2{font-size:25px!important;line-height:27px!important}
@@ -232,35 +234,37 @@
 .bannerblockcontent h3{font-size:24px!important}
 .bannerblockcontent h4{font-size:24px!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:40px!important}
-.gotoblocknew .indexblock1contentleft h2 {font-size: 47px!important;line-height: 50px!important;}
+.gotoblocknew .indexblock1contentleft h2{font-size:47px!important;line-height:50px!important}
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:47px!important;line-height:50px!important}
+.sponsorbannerdesignarrow1 {width: 166px!important;}
 }
 @media(max-width:1420px) {
 .indexblock1contentwrapper .indexblock1img1leftwrapper{flex:1 0 41%!important}
 .indexblock6new{background-position:top -18px right -16%!important}
 .indexblock4new{background-position:top -9px right -47%!important}
 .clickherebtn,.clickherebtn:hover{font-size:20px!important}
-
 .indexblock9new .indexblock1contentimg{width:36%!important}
-.indexblock1contentwrapper .contentcentered p {font-size: 19px!important;}
-.indexblock2new {background-position: right -41% top -5px!important;margin-top: -7%!important;}
-.booth-table-block-bg {background-position: right 120% bottom !important;}
-.readers-table-block-bg {background-position: right -8% bottom !important;}
+.indexblock1contentwrapper .contentcentered p{font-size:19px!important}
+.indexblock2new{background-position:right -41% top -5px!important;margin-top:-7%!important}
+.booth-table-block-bg{background-position:right 120% bottom!important}
+.readers-table-block-bg{background-position:right -8% bottom!important}
+.sponsorbannerdesignarrow1 {left: -170px!important;}
 }
 @media(max-width:1380px) {
 .getstarted2{font-size:20px!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:41px!important}
-.indexblock7new .indexblock1contentleft p{font-size:18px!important;line-height: normal !important;}
-.indexblock8new .indexblock1contentleft p{font-size: 22px !important;line-height:24px!important;}
-.indexblock8new .indexblock1contentleft h2{font-size:30px!important;line-height:34px!important;}
+.indexblock7new .indexblock1contentleft p{font-size:18px!important;line-height:normal!important}
+.indexblock8new .indexblock1contentleft p{font-size:22px!important;line-height:24px!important}
+.indexblock8new .indexblock1contentleft h2{font-size:30px!important;line-height:34px!important}
 .indexblock9new .indexblock1contentimg{width:35%!important}
 .indexblock2new .purplebg{padding:6px!important;font-size:44px!important;line-height:45px!important;font-size:35px!important}
 .triangle-bottom-left{left:70%!important}
 .indexblock2new{background-position:right -54% top -5px!important}
-
-.booth-table .indexblock2new{background-position: left -60% top 27px!important;}
-.booth-table-block1-wrapper h3 span.triangle-bottom-left {left: -13px !important;}
+.booth-table .indexblock2new{background-position:left -60% top 27px!important}
+.booth-table-block1-wrapper h3 span.triangle-bottom-left{left:-13px!important}
+.sponsorbannerdesignarrow1 {width: 135px!important;left: 1px!important;}
+.sponsorbannerdesignarrow2 {right: 31%!important;width: 56px!important;}
 }
-
 @media(max-width:1366px) {
 .bannerblockinner .banner-title strong{font-size:20px!important;line-height:24px!important}
 .bannerblocklefttravelbg .bannerblackbtn,.bannerblocklefttravelbg .bannerblackbtn:hover{color:#fff!important;font-size:15px!important;line-height:28px!important}
@@ -284,16 +288,15 @@
 .bottombannerblock3{background:url(../images/bannerbootom3imgleft.png) left -40% center no-repeat,url(../images/bannerbootom3imgright.png) right -30% center no-repeat,url(../images/bottombannerblock3mainbg.jpg) center center no-repeat!important}
 .bannerblackbtn,.bannerblackbtn:hover{font-size:19px!important;padding:10px!important;height:49px!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:39px!important;line-height:39px!important}
-/* .indexblock2new{margin-top:-10%!important} */
 .indexblock3new{margin-top:-10%!important}
 .indexblock4new{background-position:top -9px right -51%!important}
 .indexblock9bg{background-position:left 75% center!important}
 .indexblock9new .indexblock1contentleft p{font-size:20px!important}
-.titleheader h2.pagetitle strong {font-size: 31px !important;line-height:31px!important}
-.presenters-block1-wrapper h2 span.subtxt{font-size: 24px !important;line-height:24px!important}
-.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 25px !important;}
-.booth-table-block1 .titleheader h2.pagetitle .subtxt {font-size: 21px!important;line-height: 21px!important;}
-.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 36px !important;line-height: 36px!important;}
+.titleheader h2.pagetitle strong{font-size:31px!important;line-height:31px!important}
+.presenters-block1-wrapper h2 span.subtxt{font-size:24px!important;line-height:24px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn{bottom:25px!important}
+.booth-table-block1 .titleheader h2.pagetitle .subtxt{font-size:21px!important;line-height:21px!important}
+.booth-table-block1 .titleheader h2.pagetitle strong{font-size:36px!important;line-height:36px!important}
 }
 @media(max-width:1320px) {
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:26px!important;line-height:30px!important}
@@ -310,24 +313,25 @@
 .indexblock5{background:url(../images/indexblock5bg.jpg) #334053 no-repeat right 60% center!important}
 .indexblock4{height:360px!important}
 .indexblock4contentwrapper{position:relative!important;height:360px!important}
-.indexblock1contentwrapper .contentcentered p{font-size:19px!important;}
+.indexblock1contentwrapper .contentcentered p{font-size:19px!important}
 .indexblock4new{background-position:top -9px right -62%!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:38px!important}
-.indexblock7new .indexblock1contentleft h2{font-size: 36px!important;line-height: 38px!important;}
-.indexblock8new .indexblock1contentleft h2{font-size:26px!important;line-height: 30px!important;}
+.indexblock7new .indexblock1contentleft h2{font-size:36px!important;line-height:38px!important}
+.indexblock8new .indexblock1contentleft h2{font-size:26px!important;line-height:30px!important}
 .indexblock7new .indexblock1contentleft p{max-width:93%!important}
 .indexblock6new{background-position:top -34px right -25%!important}
 .bannerblockinner .bannerblocklefttravelbg p{font-size:18px!important}
-.indexblock8new .indexblock1contentleft {padding: 15px 15px 25px 27% !important;}
-.indexblock6new {background-position:top -25px right -20% !important;}
-.titleheader h2.pagetitle strong {font-size: 29px !important;line-height:29px!important}
-.presenters-block1-wrapper h2 span.subtxt{font-size: 20px !important;line-height:20px!important}
-.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 20px !important;}
-.indexblock8new {min-height: 1px !important;}
-.indexblock7new {min-height: 1px !important;}
-
-.gotoblocknew .indexblock1contentleft h2{font-size: 44px!important;line-height: 45px!important;}
-
+.indexblock8new .indexblock1contentleft{padding:15px 15px 25px 27% !important}
+.indexblock6new{background-position:top -25px right -20%!important}
+.titleheader h2.pagetitle strong{font-size:29px!important;line-height:29px!important}
+.presenters-block1-wrapper h2 span.subtxt{font-size:20px!important;line-height:20px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn{bottom:20px!important}
+.indexblock8new{min-height:1px!important}
+.indexblock7new{min-height:1px!important}
+.gotoblocknew .indexblock1contentleft h2{font-size:44px!important;line-height:45px!important}
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:44px!important;line-height:45px!important}
+.sponsorbannerdesignarrow1 {width: 110px!important;left: 4px!important;}
+.sponsorbannerdesignarrow3 {right: 0!important;width: 100px!important;}
 }
 @media(max-width:1300px) {
 .bannerblocklefttravelbg .bannerblockcontent h4{max-width:82%!important}
@@ -337,15 +341,14 @@
 .indexblock1contentwrapper .contentcentered h2{font-size:34px!important;line-height:34px!important}
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:24px!important;line-height:31px!important}
 .bannerblocklefttravelbg .bannerblockcontent h2 img{max-width:19%!important;margin-left:10px!important}
-.indexblock6new .indexblock1contentwrapper .contentcentered p {padding: 0 17px 0 0 !important;}
-.indexblock8new .indexblock1contentimgleft {width: 248px!important;bottom: -33px !important;}
-.indexblock6new {background-position: top -25px right -28% !important;}
-.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 14px !important;}
-.indexblock1contentwrapper .contentcentered p {font-size: 18px!important;}
-.booth-table-block-bg {background-position: right 100% bottom !important;}
-.readers-table-block-bg {background-position: right -15% bottom !important;}
-.booth-table .indexblock2new {background-position: left -95% top 27px!important;}
-
+.indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0 17px 0 0 !important}
+.indexblock8new .indexblock1contentimgleft{width:248px!important;bottom:-33px!important}
+.indexblock6new{background-position:top -25px right -28%!important}
+.indexblock2new .indexblock1contentleft .clickherebtn{bottom:14px!important}
+.indexblock1contentwrapper .contentcentered p{font-size:18px!important}
+.booth-table-block-bg{background-position:right 100% bottom!important}
+.readers-table-block-bg{background-position:right -15% bottom!important}
+.booth-table .indexblock2new{background-position:left -95% top 27px!important}
 }
 @media(max-width:1280px) {
 .bottombannerblock3-wrapper{width:61%!important}
@@ -396,9 +399,10 @@
 .indexblock5new .indexblock5lists li{font-size:15px!important}
 .indexblock6new{min-height:565px!important}
 .bannerblockinner .banner-logo-travellodging{right:-8px!important;width:137px}
-.indexblock1contentwrapper .contentcentered p {font-size: 18px!important;}
-.indexblock2new .indexblock1contentleft .clickherebtn {bottom: 12px !important;}
-.titleheader h2.pagetitle strong {font-size: 28px !important;line-height: 28px!important;}
+.indexblock1contentwrapper .contentcentered p{font-size:18px!important}
+.indexblock2new .indexblock1contentleft .clickherebtn{bottom:12px!important}
+.titleheader h2.pagetitle strong{font-size:28px!important;line-height:28px!important}
+.arrowdesigntop{display: none !important;}
 }
 @media(max-width:1260px) {
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:37px!important;line-height:37px!important}
@@ -418,9 +422,8 @@
 .indexblock8new .indexblock1contentimgleft{width:255px!important}
 .clickherebtn,.clickherebtn:hover{font-size:17px!important}
 .indexblock8new{margin-top:15px;margin-bottom:25px;min-height:200px}
-
-.gotoblocknew .indexblock1contentleft h2{ font-size: 43px!important;line-height: 43px!important;}
-
+.gotoblocknew .indexblock1contentleft h2{font-size:43px!important;line-height:43px!important}
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:43px!important;line-height:43px!important}
 }
 @media(max-width:1220px) {
 .menudiv .navbar li{padding:0 10px!important}
@@ -433,7 +436,7 @@
 .indexblock4new{background-position:top -9px right -85%!important}
 .indexblock5new .indexblock5lists li{font-size:15px!important;padding:8px!important}
 .indexblock1contentwrapper .indexblock1img1leftwrapper{height:96%}
-.titleheader h2.pagetitle strong {font-size: 27px !important;line-height: 27px!important;}
+.titleheader h2.pagetitle strong{font-size:27px!important;line-height:27px!important}
 }
 @media(max-width:1199px) {
 .bannerblockcontent h4{margin:0 0 15px!important}
@@ -447,7 +450,7 @@
 .indexblock1new{padding:30px 0;min-height:1px}
 .indexblock1new .indexblock1contentwrapper .contentcentered{margin-top:30px!important}
 .indexblock1contentimg{margin-top:30px!important;margin-bottom:10px!important;width:100%}
-.indexblock1contentleft{padding-right:0!important;padding-left:0!important;flex-wrap:wrap;width:98%!important;align-items:center!important;justify-content:center;margin-left:auto!important;margin-right:auto!important;margin-top: 0!important;}
+.indexblock1contentleft{padding-right:0!important;padding-left:0!important;flex-wrap:wrap;width:98%!important;align-items:center!important;justify-content:center;margin-left:auto!important;margin-right:auto!important;margin-top:0!important}
 .indexblock1content{justify-content:center!important;flex-wrap:wrap;align-items:center!important;flex-direction:column}
 .indexblock1contentwrapper{flex-direction:column!important}
 .indexblock2new{padding:30px 0!important;margin-top:-5%!important;min-height:1px!important}
@@ -463,16 +466,15 @@
 .indexblock5new .indexblock1img1leftwrapper{margin-bottom:30px!important}
 .indexblock6new{padding:30px 0;margin-top:-5%!important;min-height:1px!important;background-position:top center!important;padding-top:84%!important;padding-bottom:30px!important;background-size:100%!important}
 .indexblock6new .indexblock1content{flex-direction:column!important;justify-content:center!important;align-items:center!important}
-.indexblock6new .indexblock1contentleft .indexblock2contentimg{margin-right:auto!important;margin-left:auto;}
-.indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0!important;margin-top: -15px!important;}
+.indexblock6new .indexblock1contentleft .indexblock2contentimg{margin-right:auto!important;margin-left:auto}
+.indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0!important;margin-top:-15px!important}
 .indexblock7new{margin-top:0;min-height:1px}
 .indexblock7bg{padding:15px!important;display:flex!important;align-items:stretch;position:relative;border-radius:10px;background-size:cover;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;background:rgba(255,234,3,1)!important;background:-moz-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:-webkit-gradient(left top,left bottom,color-stop(0%,rgba(255,234,3,1)),color-stop(25%,rgba(255,234,3,1)),color-stop(55%,rgba(255,233,92,1)),color-stop(100%,rgba(254,207,0,1)))!important;background:-webkit-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:-o-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:-ms-linear-gradient(top,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;background:linear-gradient(to bottom,rgba(255,234,3,1) 0%,rgba(255,234,3,1) 25%,rgba(255,233,92,1) 55%,rgba(254,207,0,1) 100%)!important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffea03',endColorstr='#fecf00',GradientType=0)!important}
-.indexblock7new .indexblock1contentleft .clickherebtn{position:inherit;right:0;bottom:0;margin:0 auto}
-.indexblock7new .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
+.indexblock7new .indexblock1contentleft .clickherebtn{position:inherit;right:0;bottom:0;margin:0 auto;position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
 .indexblock7new .indexblock1contentleft h2{font-size:24px!important;line-height:28px!important}
 .indexblock7new .indexblock1contentleft h2 br{display:none!important}
-.indexblock7new .indexblock7bg .indexblock1contentimg{margin-top:15px!important;margin-bottom: 15px !important;}
-.indexblock7new .indexblock1contentleft p {line-height: normal !important;}
+.indexblock7new .indexblock7bg .indexblock1contentimg{margin-top:15px!important;margin-bottom:15px!important}
+.indexblock7new .indexblock1contentleft p{line-height:normal!important}
 .indexblock8new .contentwrapper{flex-wrap:wrap;flex-direction:column!important}
 .indexblock8new .indexblock1contentimgleft{position:inherit!important;left:0!important;bottom:0!important;width:285px!important;margin:30px auto 0}
 .indexblock8new .indexblock1contentleft{padding:15px!important;text-align:center}
@@ -483,13 +485,12 @@
 .indexblock8new .indexblock1contentimg{border-top-left-radius:0!important;border-top-right-radius:0!important;border-bottom-right-radius:10px!important;border-bottom-left-radius:10px!important;width:100%!important;margin:0 auto!important}
 .indexblock8new .indexblock1contentimg img{border-top-left-radius:0!important;border-top-right-radius:0!important;border-bottom-right-radius:10px!important;border-bottom-left-radius:10px!important}
 .indexblock8new .indexblock8left .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;width:210px;margin:0 auto 30px}
-
 .redesign .contentwrapper{width:100%!important}
 .indexblock9bg{background:rgba(13,21,32,1)!important;background:-moz-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:-webkit-gradient(left top,left bottom,color-stop(25%,rgba(13,21,32,1)),color-stop(70%,rgba(222,6,31,1)),color-stop(100%,rgba(210,13,23,1)))!important;background:-webkit-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:-o-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:-ms-linear-gradient(top,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;background:linear-gradient(to bottom,rgba(13,21,32,1) 25%,rgba(222,6,31,1) 70%,rgba(210,13,23,1) 100%)!important;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0d1520',endColorstr='#d20d17',GradientType=0)!important}
 .indexblock9new.redesign .contentwrapper{width:100%!important;flex-wrap:wrap;align-items:center;justify-content:center}
 .indexblock9new .indexblock1contentleft h2{font-size:28px!important;line-height:32px!important;text-align:center}
 .indexblock9new .indexblock1contentleft p{text-align:center}
-.indexblock9new .indexblock1contentimg{width:100%!important;margin-top: 15px!important;}
+.indexblock9new .indexblock1contentimg{width:100%!important;margin-top:15px!important}
 .bannerblocklefttravelbg .bannerblockcontent h2 span{display:inline-flex!important}
 .bannerblockinner .banner-title strong{display:inherit!important}
 .footermenu ul li{margin:0 6px!important}
@@ -521,7 +522,7 @@
 .aboutblock1{height:auto!important}
 .aboutblock1contentwrapper{position:relative!important;height:auto!important}
 .contactgirlimg{margin-left:-80px!important}
-.bannerblockleft{padding:0px 10px 0!important}
+.bannerblockleft{padding:0 10px!important}
 .bottombannerblockcontent h2{font-size:42px!important;line-height:36px!important}
 .convention-center-gotoblock{text-align:center!important;padding:20px 16px!important}
 .convention-center-gotoblock h2{font-size:30px!important;margin:0!important}
@@ -623,46 +624,44 @@
 .travellodging-lists h3{font-size:24px!important;line-height:28px!important;margin-top:10px!important}
 .bannerblockcontent h3{margin-top:15px!important}
 .bannerblockinner .bannerblockleft{padding-top:30px!important;padding-bottom:30px!important}
-
-.bannerblock.bannerblockinnernew .list-inline .bannerblackbtn, .bannerblock.bannerblockinnernew .list-inline .bannerblackbtn:hover {font-size: 18px!important;}
-.agenda-block1 {padding-top: 30px!important;}
-.bannerblock.bannerblockinnernew .list-inline {width: 100%!important;margin-top: 20px!important;}
-
-.booth-table-block-bg {background-position: bottom right !important;padding-bottom: 55% !important;background-size: 105%;}
-.readers-table-block-bg {    background-position: bottom right !important;
-    padding-bottom: 100% !important;
-    background-size: 100%;}
-.booth-table-block1 .row-flex {justify-content: center;display: flex;}
-.booth-table-block1-wrapper h3 span.triangle-bottom-left{left: -13px !important;}
-.booth-table-block1-wrapper h3 span {font-size: 32px !important;}
-.singleboothtablecontent .oval label {font-size: 18px!important;}
-.singleboothtablecontent .boothtabledttime ul li {font-size: 14px!important;line-height: 14px!important;}
-.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 33px !important;line-height: 36px!important;}
-.booth-table-block1 .titleheader h2.pagetitle .subtxt {max-width: 100%!important;}
-
-
-.gotoblocknew{margin-top:0 !important;min-height:1px;}
-.gotoblocknewbg{
-    flex-wrap: wrap;
-    align-items: center !important;
-    justify-content: center;
-    text-align: center;
-    background: url(../images/boothtable/gotoblocknewimgbg.jpg) !important;
-    padding: 15px 0 15px!important;
-    position: relative !important;
-    border-radius: 10px !important;
-    background-size: 240% !important;
-    padding-top: 35% !important;
-    background-repeat: no-repeat !important;
-    background-position: top right !important;
-    background-color: #ec620a !important;
-}
+.bannerblock.bannerblockinnernew .list-inline .bannerblackbtn,.bannerblock.bannerblockinnernew .list-inline .bannerblackbtn:hover{font-size:18px!important}
+.agenda-block1{padding-top:30px!important}
+.bannerblock.bannerblockinnernew .list-inline{width:100%!important;margin-top:20px!important}
+.booth-table-block-bg{background-position:bottom right!important;padding-bottom:55%!important;background-size:105%}
+.readers-table-block-bg{background-position:bottom -25px right!important;padding-bottom:100%!important;background-size:100%}
+.booth-table-block1 .row-flex{justify-content:center;display:flex}
+.booth-table-block1-wrapper h3 span.triangle-bottom-left{left:-13px!important}
+.booth-table-block1-wrapper h3 span{font-size:32px!important}
+.singleboothtablecontent .oval label{font-size:18px!important}
+.singleboothtablecontent .boothtabledttime ul li{font-size:14px!important;line-height:14px!important}
+.booth-table-block1 .titleheader h2.pagetitle strong{font-size:33px!important;line-height:36px!important}
+.booth-table-block1 .titleheader h2.pagetitle .subtxt{max-width:100%!important}
+.gotoblocknew{margin-top:0!important;min-height:1px}
+.gotoblocknewbg{flex-wrap:wrap;align-items:center!important;justify-content:center;text-align:center;background:url(../images/boothtable/gotoblocknewimgbg.jpg)!important;padding:15px 0!important;position:relative!important;border-radius:10px!important;background-size:240%!important;padding-top:35%!important;background-repeat:no-repeat!important;background-position:top right!important;background-color:#ec620a!important}
 .gotoblocknew .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
 .gotoblocknew .indexblock1contentleft h2{font-size:24px!important;line-height:28px!important}
 .gotoblocknew .indexblock1contentleft h2 br{display:none!important}
-.gotoblocknew .gotoblocknewbg .indexblock1contentimg{margin-top:15px!important;margin-bottom: 15px !important;}
+.gotoblocknew .gotoblocknewbg .indexblock1contentimg{margin-top:15px!important;margin-bottom:15px!important}
 
-
+.spiritconsponsorblocknew{margin-top:0!important;min-height:1px}
+.spiritconsponsorblocknewbg{flex-wrap:wrap;align-items:center!important;justify-content:center !important;text-align:center;background:url(../images/sponsor/spiritconsponsorblocknewimgbg.jpg)!important;padding:15px 0!important;position:relative!important;border-radius:10px!important;background-size:240%!important;padding-top:35%!important;background-repeat:no-repeat!important;background-position: top left!important;background-color: #7dbb12!important;}
+.spiritconsponsorblocknew .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
+.spiritconsponsorblocknew .indexblock1contentleft h2{font-size:24px!important;line-height:28px!important}
+.spiritconsponsorblocknew .indexblock1contentleft h2 br{display:none!important}
+.spiritconsponsorblocknew .spiritconsponsorblocknewbg .indexblock1contentimg{margin-top:15px!important;margin-bottom:15px!important}
+.spiritconsponsorblocknew .logohiddenstage{ margin-top: 20px !important;}
+.sponsorbannerdesignarrow1 {left: -8% !important;}
+.sponsorbannerdesignarrow2 {right: 0 !important; top: 50% !important;}
+.sponsorbannerdesignarrow3 {right: 25% !important;top: 87% !important;}
+.spiritconsponsorblocknew .indexblock1contentleft {background: none !important;}
+.spiritconsponsorblocknew .indexblock1contentleft h1{z-index: 9!important;padding: 12px 20px!important;background:-moz-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(254,141,20,1)),color-stop(100%,rgba(247,85,2,1)));background:-webkit-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-o-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-ms-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:linear-gradient(90deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe8d14',endColorstr='#f75502',GradientType=1)}
+.spiritconsponsorblocknew .indexblock1contentleft h3{background-color: #ffe708;padding: 20px !important;margin: 0 !important;margin-top: -10px !important;}
+.spiritconsponsorblocknew .indexblock1contentright .clickherebtn {position: inherit!important;right: 0!important;bottom: 0!important;margin: 20px auto;display: inline-block!important;}
+.sponsorbannerdesignarrow1{display:none !important}
+.sponsorbannerdesignarrow2{display:none !important}
+.sponsorbannerdesignarrow3{display:none !important}
+.spiritconsponsorblocknew .indexblock1contentleft {margin-left: auto!important;}
+.newimgconblock_span {flex-wrap: wrap !important;}
 }
 @media(max-width:1110px) {
 .bannerblockleft .list-inline > li{display:inline-block!important;padding-right:0!important;padding-left:0!important;margin-top:10px!important}
@@ -671,9 +670,9 @@
 @media(max-width:1024px) {
 .bottombannerblockcontent h2{font-size:34px!important;line-height:30px!important}
 .bottombannerblockcontent h3{font-size:19px!important;line-height:24px!important}
-.titleheader h2.pagetitle strong {font-size: 30px !important;line-height:30px!important}
-.presenters-block1-wrapper h2 span.subtxt{font-size: 22px !important;line-height:22px!important}
-.singleboothtablecontent .boothtabledttime ul li {font-size: 13px!important;}
+.titleheader h2.pagetitle strong{font-size:30px!important;line-height:30px!important}
+.presenters-block1-wrapper h2 span.subtxt{font-size:22px!important;line-height:22px!important}
+.singleboothtablecontent .boothtabledttime ul li{font-size:13px!important}
 }
 @media(max-width:991px) {
 .travellodging-maincontent .singletravellodging{width:100%!important}
@@ -717,6 +716,7 @@
 .footermenu ul{text-align:center!important}
 .footermenu .list-inline>li{margin-bottom:10px!important}
 .newlettercontent{text-align:center!important;margin-top:0!important;margin-bottom:10px!important}
+
 }
 @media (max-width:800px) {
 .indexblock3new .list-inline>li{width:49%!important;margin:1% .5%}
@@ -732,7 +732,6 @@
 #no-more-tables td:before{position:absolute!important;top:0!important;left:0!important;width:48%!important;white-space:nowrap!important;text-align:left!important;font-weight:700!important;background-color:#414243!important;height:100%!important;font-family:"RobotoMedium"!important;font-size:20px!important;text-transform:uppercase!important;padding:3px 10px!important;line-height:24px!important;color:#edefef!important;content:attr(data-title)!important;white-space:normal!important}
 }
 @media(max-width:767px) {
-
 .bannerblock.redesign .carousel-indicators{bottom:20px}
 .banner-title strong{font-size:30px!important;line-height:30px!important}
 .logowrapper{margin-left:auto!important;text-align:center}
@@ -752,14 +751,15 @@
 .footerblockwrapper{text-align:center!important}
 .search{left:0!important;float:none!important;margin:0 auto!important}
 .headerblockright{margin-top:20px!important;padding-top:20px!important;padding-bottom:20px!important;border-left:0 solid #e3e4e4!important;border-top:1px solid #e3e4e4!important}
-
 .bannerblock.bannerblockinnernew .list-inline li{width:49%!important;height:auto!important;border:0 solid #fff!important;padding:0!important;margin:.5%!important}
-.presenters-block1-wrapper h2 span.subtxt {font-size: 22px !important;line-height: normal !important;}
-.booth-table-block1 .titleheader h2.pagetitle .subtxt {font-size: 18px!important;line-height: 21px!important;}
-
+.presenters-block1-wrapper h2 span.subtxt{font-size:22px!important;line-height:normal!important}
+.booth-table-block1 .titleheader h2.pagetitle .subtxt{font-size:18px!important;line-height:21px!important}
+.reader-table-block1 h3.pageblocktitle {width: 85%!important;}
+.spiritconsponsorblocknew .indexblock1contentleft h3 br{display:none !important}
+.spiritconsponsorblocknew .indexblock1contentleft h1 {font-size: 48px !important;line-height: 48px !important;}
 }
 @media(max-width:640px) {
-.bannerblocklefttravelbg .bannerblockcontent ul{display:inline-block!important;margin-top: 0 !important;}
+.bannerblocklefttravelbg .bannerblockcontent ul{display:inline-block!important;margin-top:0!important}
 .bannerblocklefttravelbg .bannerblockcontent ul li{flex:auto!important;margin-right:auto!important;margin-top:5px!important}
 .bannerblocklefttravelbg .bannerblockcontent ul.list-inline{margin-left:auto!important}
 .bannerblockinner .banner-logo-travellodging{position:inherit!important;right:0!important;top:0!important;margin:0 auto;display:block}
@@ -789,16 +789,17 @@
 .bannerblockcontent ul.list-inline{margin:0!important}
 .bannerblock .bannerblackbtn,.bannerblock .bannerblackbtn:hover{height:auto!important;width:100%!important}
 .bannerblockcontent ul.list-inline>li{width:100%!important}
-.booth-table-block1-wrapper h3 {flex-wrap: wrap!important;}
-.gotoblocknewbg { padding-top: 37% !important;}
-
-h3.pageblocktitle {font-size: 20px!important;width: 80%!important;}
-.bannerblock.bannerblockinnernew .list-inline {width: 100%!important;}
-.bannerblock.bannerblockinnernew .list-inline li {width: 100%!important;margin: .5% 0!important;}
-.presenters-block1-wrapper h2 span.subtxt {font-size: 18px !important;}
-.singlepresenterscontent .oval label {font-size: 18px!important;}
-.banner-title strong {font-size: 24px!important;line-height: 30px!important;}
-.booth-table-block1 .titleheader h2.pagetitle strong {font-size: 22px !important;line-height: 26px!important;}
+.booth-table-block1-wrapper h3{flex-wrap:wrap!important}
+.gotoblocknewbg{padding-top:37%!important}
+h3.pageblocktitle{font-size:20px!important;width:80%!important}
+.bannerblock.bannerblockinnernew .list-inline{width:100%!important}
+.bannerblock.bannerblockinnernew .list-inline li{width:100%!important;margin:.5% 0!important}
+.presenters-block1-wrapper h2 span.subtxt{font-size:18px!important}
+.singlepresenterscontent .oval label{font-size:18px!important}
+.banner-title strong{font-size:24px!important;line-height:30px!important}
+.booth-table-block1 .titleheader h2.pagetitle strong{font-size:22px!important;line-height:26px!important}
+.indexblock1contentright{width: 100%!important;}
+.indexblock1contentright img{max-width: 90%!important;}
 }
 @media(max-width:480px) {
 .footermenu{margin-top:10px!important}
@@ -822,7 +823,7 @@ h3.pageblocktitle {font-size: 20px!important;width: 80%!important;}
 .bannerblocklefttravelbg .bannerblackbtn,.bannerblocklefttravelbg .bannerblackbtn:hover{font-size:24px!important}
 .indexblock3new .indexblock1contentwrapper .contentcentered p{padding:0 10px!important}
 .indexblock2new .purplebg{width:100%!important}
-h3.pageblocktitle {font-size: 20px!important;}
+h3.pageblocktitle{font-size:20px!important}
 
 }
 @media(max-width:360px) {
@@ -832,9 +833,8 @@ h3.pageblocktitle {font-size: 20px!important;}
 .indexblock3contentwrapper ul li{padding-right:0!important;padding-left:inherit!important;width:100%!important;margin:0 auto 10px!important;text-align:center!important;display:block!important;float:none!important}
 .videoblock{height:180px!important}
 .sociallinks ul{width:166px!important}
+.indexblock8new .indexblock1contentimgleft {width: 270px!important;}
 }
-
-
 @media screen and (max-width:1880px) {
 .spritcon_tab_wrapper .nav-tabs li{width:19.6%;height:auto;text-align:center;margin:.2%}
 .spritcon_tab_wrapper .nav-tabs li a{font-size:1.2vw;font-weight:700;text-decoration:none;color:#20b2aa;text-transform:uppercase;text-align:center;background:url(../images/li_bg.png) no-repeat bottom right;display:block;width:100%;height:100%;background-size:cover}
@@ -896,9 +896,9 @@ h3.pageblocktitle {font-size: 20px!important;}
 .headerwrapper .col-lg-6{float:none!important}
 .headerphonecon{width:330px;float:none;margin-left:auto;margin-right:auto}
 .tab_gallery_content .gallery_content{width:80%!important;height:auto!important;margin:0 0 23px!important;float:none!important;overflow:hidden!important}
-.singlepresenterscontent {padding: 15px 0 0!important;}
-.singlepresenterscontent .presenterdttime {position: inherit!important;bottom: 0!important;left: 0!important;width: 100%!important;padding: 5px!important;}
-.singlepresenterscontent h4 {margin-bottom: 15px!important;}
+.singlepresenterscontent{padding:15px 0 0!important}
+.singlepresenterscontent .presenterdttime{position:inherit!important;bottom:0!important;left:0!important;width:100%!important;padding:5px!important}
+.singlepresenterscontent h4{margin-bottom:15px!important}
 }
 @media screen and (max-width:480px) {
 .tab_gallery_content{margin:0}
