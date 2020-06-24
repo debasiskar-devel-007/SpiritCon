@@ -1,20 +1,41 @@
 .banner-img1{background:url(../../assets/images/conventioncenter/conventioncenterbanner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
 .homebg{background-image:url(../../assets/images/conventioncenter/conventioncentermainbg.jpg);background-position:top center;background-repeat:no-repeat;background-size:cover}
 .redesign .contentwrapper{width:1600px;margin:0 auto;display:block}
+
+.titleheader h2.pagetitle strong{font-size: 60px;line-height: 60px;}
+
 @media(max-width:1800px) {
 .banner-img1{background-position:right 30% center}
 }
 @media(max-width:1666px) {
 .redesign .contentwrapper{width:96%!important}
 .homebg{background-position:top 85% center!important}
+.titleheader h2.pagetitle strong {font-size: 55px!important;line-height: 55px!important;}
 }
 @media(max-width:1440px) {
 .banner-img1{background-position:right 25% center}
+.titleheader h2.pagetitle strong {font-size: 48px!important;line-height: 48px!important;}
 }
 @media(max-width:1400px) {
-    .banner-img1{background-position:right 65% center}
-    }
+.banner-img1{background-position:right 65% center}
+}
+
+@media(max-width:1366px) {
+.titleheader h2.pagetitle strong {font-size: 46px!important;line-height: 46px!important;}
+}
+
+@media(max-width:1300px) {
+.titleheader h2.pagetitle strong {font-size: 43px!important;line-height: 43px!important;}
+}
 
 @media(max-width:1199px) {
 .banner-img1{background-position:top right!important;background-size:210%!important;padding:29px 0;margin-bottom:0;min-height:1px;padding-top:40%}
+.titleheader h2.pagetitle strong {font-size: 36px!important;line-height: 36px!important;}
+}
+@media(max-width:991px) {
+.titleheader h2.pagetitle strong {font-size: 31px!important;line-height: 31px!important;}
+}
+
+@media(max-width:767px) {
+.titleheader h2.pagetitle strong {font-size: 28px!important;line-height: 28px!important;}
 }
