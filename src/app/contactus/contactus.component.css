@@ -1,0 +1,42 @@
+.banner-img1{background:url(../../assets/images/contactus/contactusbanner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
+.homebg{background-image:url(../../assets/images/contactus/contactusmainbg.jpg);background-position:top center;background-repeat:no-repeat;background-size:cover}
+/* .homepage{background-color: #fff;} */
+.redesign .contentwrapper{width:1600px;margin:0 auto;display:block}
+
+.sociallinks ul {background-color: transparent!important;padding: 0!important;}
+.contactusformblockright{padding:27px 27px 27px 0!important}
+
+
+@media(max-width:1760px) {
+.banner-img1 {background-position: right 65% center;}
+}
+
+@media(max-width:1666px) {
+.redesign .contentwrapper{width:96%!important}
+.homebg{background-position:top 85% center!important}
+.banner-img1{background-position: right 72% center;}
+}
+@media(max-width:1540px) {
+.banner-img1{background-position:right 67% center}
+}
+
+@media(max-width:1440px) {
+.banner-img1 {background-position: right 63% center;}
+}
+
+@media(max-width:1366px) {
+.banner-img1 {background-position: right 80% center;}
+}
+
+@media(max-width:1280px) {
+.banner-img1{background-position:right 75% center}
+}
+@media(max-width:1199px) {
+.banner-img1{background-position:top right!important;background-size:210%!important;padding:29px 0;margin-bottom:0;min-height:1px;padding-top:40%}
+}
+@media(max-width:991px) {
+.contactusformblockright {padding: 10px 27px 27px!important;}
+}
+@media(max-width:540px) {
+.contactusformblockright {padding: 10px 10px 0px!important;}
+}

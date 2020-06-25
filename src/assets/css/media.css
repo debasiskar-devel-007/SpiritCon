@@ -99,6 +99,7 @@
 .spiritconsponsorblocknew .indexblock1contentleft {margin-left: 5%!important;}
 .sponsorbannerdesignarrow1 {left: 40px!important;width: 270px !important;}
 .sponsorbannerdesignarrow2 {right: 30%!important;}
+.contactusformblockwrapper {background-position: left 30% center !important;}
 }
 @media(max-width:1620px) {
 .indexblock8new .indexblock1contentleft p{max-width:78%}
@@ -111,7 +112,7 @@
 .bottombannerblock3content h2:before{top:-33px!important}
 .bottombannerblock3{background:url(../images/bannerbootom3imgleft.png) left -13% center no-repeat,url(../images/bannerbootom3imgright.png) right -13% center no-repeat,url(../images/bottombannerblock3mainbg.jpg) center center no-repeat!important}
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:32px!important}
-.contactusformblockwrapper{width:96%!important}
+/* .contactusformblockwrapper{width:96%!important} */
 .bottombannerblockcontent h2{font-size:56px!important;line-height:42px!important}
 .bottombannerblockcontent h3{font-size:22px!important;line-height:27px!important}
 .singleboothtablecontent .boothtabledttime ul li{font-size:12px!important}
@@ -297,6 +298,7 @@
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:25px!important}
 .booth-table-block1 .titleheader h2.pagetitle .subtxt{font-size:21px!important;line-height:21px!important}
 .booth-table-block1 .titleheader h2.pagetitle strong{font-size:36px!important;line-height:36px!important}
+.contactusformblockwrapper {background-position: left 38% center!important;}
 }
 @media(max-width:1320px) {
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:26px!important;line-height:30px!important}
@@ -333,6 +335,7 @@
 .sponsorbannerdesignarrow1 {width: 110px!important;left: 4px!important;}
 .sponsorbannerdesignarrow3 {right: 0!important;width: 100px!important;}
 .convention-center-mapblock-img-wrapper {background-position: left top 45%!important;}
+.presenters-block1list-bg {background-position: right 180% bottom -6%!important;}
 }
 @media(max-width:1300px) {
 .bannerblocklefttravelbg .bannerblockcontent h4{max-width:82%!important}
@@ -425,6 +428,7 @@
 .indexblock8new{margin-top:15px;margin-bottom:25px;min-height:200px}
 .gotoblocknew .indexblock1contentleft h2{font-size:43px!important;line-height:43px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:43px!important;line-height:43px!important}
+.presenters-block1list-bg {background-position: right 130% bottom -6%!important;}
 }
 @media(max-width:1220px) {
 .menudiv .navbar li{padding:0 10px!important}
@@ -438,6 +442,7 @@
 .indexblock5new .indexblock5lists li{font-size:15px!important;padding:8px!important}
 .indexblock1contentwrapper .indexblock1img1leftwrapper{height:96%}
 .titleheader h2.pagetitle strong{font-size:27px!important;line-height:27px!important}
+.contactusformblockwrapper {background-position: left 32% center!important;}
 }
 @media(max-width:1199px) {
 .bannerblockcontent h4{margin:0 0 15px!important}
@@ -666,6 +671,11 @@
 .convention-center-mapblock-img-wrapper {background-position: top -158px left !important;padding-top: 85% !important;background-size: 125% !important;}
 .convention-center-mapblock-img-bottom {width: 100% !important;margin-left: auto !important;}
 .convention-center-mapblock-img-wrapper img {padding: 10px !important;}
+.contactusformblockright .forminnerwrapper {padding: 23px 0 !important;}
+.contactusformblockright h2 {font-size: 44px !important;line-height: 44px !important;}
+
+.presenters-block1list-bg {background-position: bottom -6% center!important;padding-bottom: 78%!important;background-size: 128%;}
+
 }
 @media(max-width:1110px) {
 .bannerblockleft .list-inline > li{display:inline-block!important;padding-right:0!important;padding-left:0!important;margin-top:10px!important}
@@ -703,9 +713,9 @@
 .contactusformblockleft h5{text-align:center!important}
 .contactgirlimg{margin-left:auto!important;margin-right:auto!important}
 .contactusformblock{height:auto!important}
-.contactusformblockleft .row-flex [class*="col-"]{text-align:center!important}
+.contactusformblockleft .row-flex [class*="col-"]{text-align:center!important;padding: 5px 0!important;}
 .contactusformblockwrapper .spiritconlogowrapper{margin:0 auto!important}
-.contactusformblockright form{margin-left:auto!important}
+.contactusformblockright form{margin-left:auto!important;width: 96%;margin-right: auto;}
 .contactusformblockright h2{text-align:center!important}
 .contactusformblockwrapper button[type="submit"]{float:none!important;margin-top:5px!important}
 .bottombannerblockcontent{text-align:left!important;margin-left:auto!important;border-top:5px solid #3b332c!important;padding-left:0!important;border-left:0 solid #3b332c!important;text-align:center!important;padding-top:18px!important}
@@ -722,6 +732,10 @@
 .newlettercontent{text-align:center!important;margin-top:0!important;margin-bottom:10px!important}
 .convention-center-mapblock-img-wrapper {background-position: top -35px left !important;padding-top: 92% !important;background-size: 120% !important;}
 
+.contactusformblockright .forminnerwrapper {padding: 23px 0 0 0;}
+.contactusformblockwrapper {background-position: left bottom -10% !important;background-color: #fafbf6 !important;background-size: 270% !important;position: relative;overflow: hidden;border-radius: 10px;padding-bottom: 70%;}
+.contactusformblockwrapper button[type="submit"] {padding: 15px !important;width: 100%;}
+.presenters-block1list-bg {background-position: bottom -3% center!important;}
 }
 @media (max-width:800px) {
 .indexblock3new .list-inline>li{width:49%!important;margin:1% .5%}
@@ -765,6 +779,8 @@
 .convention-center-mapblock-img-wrapper-top {flex-wrap: wrap !important;}
 .convention-center-mapblock-img-wrapper-top img.leftimg {margin-right: auto !important;width: 100% !important;margin-bottom: 15px !important;}
 .convention-center-mapblock-img-wrapper-top img.rightimg {width: 100% !important;}
+.indexblock9new .indexblock1contentimg{margin-bottom: 0px!important;}
+.presenters-block1list-bg {padding-bottom: 70%!important;background-position: bottom -2% center!important;}
 }
 @media(max-width:640px) {
 .bannerblocklefttravelbg .bannerblockcontent ul{display:inline-block!important;margin-top:0!important}
@@ -775,6 +791,11 @@
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:22px!important;line-height:26px!important}
 .bannerblockcontent h4{margin:10px 0 20px!important}
 .convention-center-mapblock-img-wrapper-top img.leftimg {margin-bottom: 10px !important;}
+.contactusformblockwrapper {background-position: left bottom -7% !important;}
+.contactusformblockright .forminnerwrapper {padding: 23px 0 0 0 !important;}
+.contactusformblockright h2 {font-size: 40px !important;line-height: 40px !important;}
+.contactusformblockleft h5 {padding: 30px 0 10px !important;}
+.presenters-block1list-bg {padding-bottom: 78%!important;background-position: bottom -1% center!important;}
 }
 @media(max-width:540px) {
 .bottombannerblock3content h3{font-size:20px!important;line-height:24px!important}
@@ -793,7 +814,7 @@
 .indexblock4lists.list-inline>li{width:99%!important;margin:1%}
 .getstarted2{font-size:18px!important;background-size:inherit!important}
 .travellodging-block1-wrapper h3{font-size:22px!important;text-align:center!important}
-.indexblock9new .indexblock1contentleft h2{font-size:26px!important;line-height:28px!important;text-align:center!important}
+.indexblock9new .indexblock1contentleft h2{font-size: 22px!important;line-height: 26px!important;text-align: center!important;max-width: 95%;margin-left: auto;margin-right: auto;}
 .travellodging-block1{padding-top:30px!important;padding-bottom:25px}
 .bannerblockcontent ul.list-inline{margin:0!important}
 .bannerblock .bannerblackbtn,.bannerblock .bannerblackbtn:hover{height:auto!important;width:100%!important}
@@ -810,6 +831,8 @@ h3.pageblocktitle{font-size:20px!important;width:80%!important}
 .indexblock1contentright{width: 100%!important;}
 .indexblock1contentright img{max-width: 90%!important;}
 .convention-center-mapblock-img-wrapper {padding-top: 86% !important;}
+.indexblock9new .indexblock1contentleft p {font-size: 18px!important;margin-left: auto !important;margin-right: auto !important;max-width: 96% !important;line-height: 24px !important;}
+.presenters-block1list-bg {background-position: bottom -1% center!important;}
 }
 @media(max-width:480px) {
 .footermenu{margin-top:10px!important}
@@ -835,6 +858,8 @@ h3.pageblocktitle{font-size:20px!important;width:80%!important}
 .indexblock2new .purplebg{width:100%!important}
 h3.pageblocktitle{font-size:20px!important}
 .convention-center-mapblock-img-wrapper-top img.leftimg {margin-bottom: 5px !important;}
+.contactusformblockright h2 {font-size: 32px !important;line-height: 32px !important;}
+.contactusformblockright form {padding: 15px 17px 17px 17px !important;}
 }
 @media(max-width:360px) {
 .indexblock4contentwrapper ul li{display:block!important;padding-right:0!important;padding-left:inherit!important;width:100%!important;margin:0 auto 10px!important;text-align:center!important;display:block!important;float:none!important}
@@ -844,21 +869,23 @@ h3.pageblocktitle{font-size:20px!important}
 .videoblock{height:180px!important}
 .sociallinks ul{width:166px!important}
 .indexblock8new .indexblock1contentimgleft {width: 270px!important;}
+.contactusformblockwrapper {background-position: left bottom -5% !important;}
+.presenters-block1list-bg {background-size: 136% !important;padding-bottom: 70%!important;}
 }
 @media screen and (max-width:1880px) {
 .spritcon_tab_wrapper .nav-tabs li{width:19.6%;height:auto;text-align:center;margin:.2%}
-.spritcon_tab_wrapper .nav-tabs li a{font-size:1.2vw;font-weight:700;text-decoration:none;color:#20b2aa;text-transform:uppercase;text-align:center;background:url(../images/li_bg.png) no-repeat bottom right;display:block;width:100%;height:100%;background-size:cover}
+.spritcon_tab_wrapper .nav-tabs li a{font-size: 18px !important;text-decoration:none;color:#20b2aa;text-transform:uppercase;text-align:center;display:block;width:100%;height:100%;background-size:cover}
 }
 @media screen and (max-width:1600px) {
-.spritcon_tab_wrapper .nav-tabs li{height:210px!important}
-.spritcon_tab_wrapper .nav-tabs li a{height:210px!important;width:100vw!important;display:table-cell!important;text-align:center!important;vertical-align:middle!important}
+/* .spritcon_tab_wrapper .nav-tabs li{height:210px!important} */
+/* .spritcon_tab_wrapper .nav-tabs li a{height:210px!important;width:100vw!important;display:table-cell!important;text-align:center!important;vertical-align:middle!important} */
 }
 @media screen and (max-width:1426px) {
 .spritcon_tab_wrapper .nav-tabs li{width:19.6%;height:auto;text-align:center;margin:.2%}
 }
 @media screen and (max-width:1030px) {
 .image_responsive{width:50%}
-.spritcon_tab_wrapper .nav-tabs li a{font-size:20px!important}
+.spritcon_tab_wrapper .nav-tabs li a{font-size:14px!important}
 .nav-tabs{border-bottom:none;background-color:#c7d0d2;padding:0 1%!important}
 }
 @media screen and (max-width:776px) {
@@ -866,7 +893,7 @@ h3.pageblocktitle{font-size:20px!important}
 .spritcon_tab_wrapper .nav-tabs li{width:100%!important;height:auto!important;text-align:center;margin:5px auto!important;display:block!important}
 .spritcon_tab_wrapper .nav-tabs li a{font-size:19px}
 .spritcon_tab_wrapper .nav-tabs li a img{width:20%}
-.spritcon_tab_wrapper .nav-tabs li a{display:block!important;height:auto!important;font-size:24px!important;width:100%!important}
+.spritcon_tab_wrapper .nav-tabs li a{display:block!important;height:auto!important;font-size:18px!important;width:100%!important}
 }
 @media screen and (max-width:480px) {
 .spritcon_tab_wrapper .nav-tabs li{width:100%;height:auto;text-align:center}

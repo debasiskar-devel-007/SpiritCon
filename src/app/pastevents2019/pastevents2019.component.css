@@ -1,0 +1,28 @@
+.banner-img1{background:url(../../assets/images/pastevent/pasteventbanner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
+.homebg{background-image:url(../../assets/images/pastevent/pasteventmainbg.jpg);background-position:top right;background-repeat:no-repeat;background-size:cover}
+
+.redesign .contentwrapper{width:1600px;margin:0 auto;display:block}
+
+.bannerblockinnernew .bannerblockleft .bannerblockcontent h2 {margin: 17px 0 5px;}
+.bannerblockcontent h3 {margin: 0 0 0px !important;font-size: 32px;line-height: 32px;color: #fef013;}
+.bannerblockcontent h4 {margin:5px 0 5px;font-size: 32px;line-height: 32px;color:#a1fa24;}
+
+.singlepresenters{margin: 0!important;vertical-align: top;}
+.agenda-block1 {padding-top: 0px;padding-bottom: 10px;margin-bottom: 4px;}
+
+@media(max-width:1666px) {
+.redesign .contentwrapper{width:96%!important}
+.homebg{background-position:top center!important}
+.banner-img1{background-position:right 45% center}
+}
+
+
+@media(max-width:1366px) {
+.bannerblockcontent h4 {font-size: 24px!important;}
+.bannerblockcontent h3 {font-size: 24px!important;}
+}
+
+@media(max-width:1199px) {
+.banner-img1{background-position:top right!important;background-size:210%!important;padding:29px 0;margin-bottom:0;min-height:1px;padding-top:40%}
+.bannerblockcontent h4 {margin: 0!important;}
+}

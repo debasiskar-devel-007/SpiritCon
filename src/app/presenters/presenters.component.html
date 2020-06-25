@@ -60,8 +60,7 @@
         <div class="innerpageblock-wrapper-content-outer">                 
             <div class="presenters-block1-wrapper-inner">
               <div class="row row-flex">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 singlepresenters"
-                  *ngFor="let item of presenterlist; let i = index">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 singlepresenters" *ngFor="let item of presenterlist; let i = index">
                   <div class="singlepresenterswrapper">
                     <div class="singlepresenterswrappertop">
                       <h2 class="purplegrad">Presenter</h2>
@@ -75,9 +74,7 @@
                       <div class="oval">
                         <label><span>Name:</span> {{ item.speaker_name }}</label>
                       </div>
-                      <p [innerHTML]="
-                          _sanitizer.bypassSecurityTrustHtml(item.description)
-                        "></p>
+                      <p [innerHTML]="_sanitizer.bypassSecurityTrustHtml(item.description)"></p>
                       <a class="readmore btnbluegrad" (click)="showcontents(item)">read more</a>
                       <!--<h4>Subjects</h4>-->
                       <h4>{{ item.subjects_covered }}</h4>

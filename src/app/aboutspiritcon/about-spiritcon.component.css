@@ -60,6 +60,7 @@
 .aboutblock .indexblock2new .indexblock1contentwrapper .contentcentered {margin-top: 0;}
 .aboutblock .gotoblocknew {margin-top: -4%;}
 .aboutblock .indexblock1new {background-position: left -36% top 0!important;}
+.aboutblock .indexblock5new {margin-top: -30px!important;}
 }
 
 @media(max-width:1540px) {
@@ -118,13 +119,17 @@
 .aboutblock .indexblock5new .indexblock1content {min-height: 1px;}
 .aboutblock .indexblock5new .indexblock1content .indexblock5contentimg {right: 15%;bottom: -28px;width: 330px;}
 .bannerblockcontent h3 {margin-top: 15px!important;}
-.bannerblockcontent h4 {margin-top: 19px!important;}
+.bannerblockcontent h4 {margin-top: 19px!important;margin-bottom: 0 !important;}
 .bannerblockcontent h3 br{display: none;}
 .bannerblockcontent h4 br{display: none;}
 }
 
 @media(max-width:767px) {
 .aboutblock .indexblock5new .indexblock1content .indexblock5contentimg {right: 0;bottom: -20px;width: 298px;}
+}
+
+@media(max-width:640px) {
+.aboutblock .indexblock5new .indexblock1content .indexblock5contentimg {right: 0;bottom: -10px;width: 265px;}
 }
 @media(max-width:600px) {
 .aboutblock .indexblock5new .indexblock1content .indexblock5contentimg {right: 0;bottom: 0;width: 247px;}

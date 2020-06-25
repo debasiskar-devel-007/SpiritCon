@@ -1,6 +1,6 @@
 <app-header></app-header>
 
-<div class="container-fluid bannerblock bannerblockinner">
+<!-- <div class="container-fluid bannerblock bannerblockinner">
   <div class="item">
     <div class="row row-eq-height">
       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bannerblockright pull-right">
@@ -10,99 +10,124 @@
         <div class="bannerblockcontent">
           <h2>April 4th and 5th 2020 join us for 2 incredible days of Pagan spirit, magic, healing and community!</h2>
             <ul class="list-inline">
-               <!-- <li><a href="https://www.brownpapertickets.com/event/3161483" target="_blank" class="getstarted"><span>Buy Tickets</span></a></li>-->
                 <li><a href="https://www.eventbrite.com/e/spiritcon-2020-tickets-64701065629?fbclid=IwAR2Y2CfhMWxveRfn9E-DWSi13SHS_X-bm3auszxtJxumm3GU2jA4ThhQSqs" target="_blank" class="getstarted"><span>Buy Tickets</span></a></li>
                 <li><a (click)="callmodalforbuybooth()" target="_self" class="bannerblackbtn btnblackgrad"><span>Buy Booths or tables</span></a></li>
-                <!-- <li><a style="cursor: pointer" (click)="callmodalforagenda()"  class="bannerblackbtn"><span>Vendors</span></a></li>
-                <li><a style="cursor: pointer" (click)="callmodalforagenda()"  class="bannerblackbtn"><span>Readers</span></a></li>
- 
-                <li><a  style="cursor: pointer" (click)="callmodalforagendamoalnew()" class="bannerblackbtn"><span>See Agenda</span></a></li> -->
-
                 <li><a [routerLink]="['/boothtable']" class="bannerblackbtn btngreengrad"  target="_self"><span>Vendors</span></a></li>
                 <li><a [routerLink]="['/readers']" class="bannerblackbtn btnbluegrad" target="_self"><span>Readers</span></a></li>
-
                <li><a [routerLink]="['/agenda']" class="bannerblackbtn btnpurplegrad"><span>See Agenda</span></a></li> 
-               <!-- <li><a  style="cursor: pointer" (click)="callmodalforagendamoalnew()" class="bannerblackbtn"><span>See Agenda</span></a></li>   -->
             </ul>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
-<div class="container-fluid pageheaderblock">
-  <h2>Contact Us</h2>
-</div>
-
-
-<div class="container-fluid contactusformblock">
-  <div class="contactusformblockwrapper">
-    <div class="row row-flex">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contactusformblockleft">
-        <div class="row row-flex">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="contactgirlimg">
-              <img src="../../assets/images/contactgirlimg.png"/>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="spiritconlogowrapper">
-              <img src="../../assets/images/spiritconlogo-contactus.png"/>
-            </div>
-
-            <h2>Spirit Convention</h2>
-            <h4><!--24/7 Customer Service-->1661 N. Main Street</h4>
-           <h3><!-- Email: <a href="mailto:support@brownpapertickets.com">support@brownpapertickets.com</a><br>-->
-              Tel: <a href="tel:+(801) 773-7243">(801) 773-7243</a> <!--Worldwide--></h3>
-            <div class="sociallinks">
-              <h5>Connect with us</h5>
-              <ul class="list-inline">
-               <!-- <li><a href="javascript:void(0)"><img src="../../assets/images/icon-twitter.png"/></a></li>-->
-                <li><a href="https://www.facebook.com/spiritconutah/" target="_blank"><img src="../../assets/images/icon-facebook.png"/></a></li>
-               <!-- <li><a href="javascript:void(0)"><img src="../../assets/images/icon-bloger.png"/></a></li>
-                <li><a href="javascript:void(0)"><img src="../../assets/images/icon-youtube.png"/></a></li>-->
-              </ul>
-            </div>
+<div class="container-fluid bannerblock bannerblockinnernew redesign">
+  <div class="item banner-img1">
+    <div class="row row-eq-height">
+      <div class="container contentwrapper">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 bannerblockleft">
+          <div class="bannerblockcontent">
+            <img class="logobanner" src="../../assets/images/home/logo.png" alt="logo">
+            <h2 class="banner-title">
+              <strong>April 4th and 5th 2020 join us</strong>
+              <strong>for 2 incredible days of Pagan spirit, magic,</strong>
+              <strong>healing and community!</strong>
+            </h2>
+            <ul class="list-inline">             
+              <li><a
+                  href="https://www.eventbrite.com/e/spiritcon-2020-tickets-64701065629?fbclid=IwAR2Y2CfhMWxveRfn9E-DWSi13SHS_X-bm3auszxtJxumm3GU2jA4ThhQSqs"
+                  target="_blank" class="getstarted2"><span>Buy Tickets</span></a></li>
+              <li><a [routerLink]="['/boothtable']" target="_self"
+                  class="bannerblackbtn btngreengrad"><span>Vendors</span></a></li>
+              <li><a [routerLink]="['/readers']" target="_self"
+                  class="bannerblackbtn btnbluegrad"><span>Readers</span></a></li>
+              <li><a [routerLink]="['/agenda']" class="bannerblackbtn btnpurplegrad">See Agenda</a></li>
+            </ul>
           </div>
         </div>
-
-
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contactusformblockright">
-        <form role="form" novalidate [formGroup]="dataForm" (ngSubmit)="dosubmit(dataForm.value)">
-          <h2>Contact Form</h2>
-          <div class="form-group">
-            <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name" [formControl]="dataForm.controls['name']">
-            <span class="has-error" *ngIf ="dataForm.controls['name'].touched && !dataForm.controls['name'].valid">Name is Required !</span>
-            <!--<small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>-->
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="Email" [formControl]="dataForm.controls['email']">
-            <span class="has-error" *ngIf ="dataForm.controls['email'].touched && getemail('blank')==true">Email is Required !</span>
-            <span class="has-error" *ngIf ="dataForm.controls['email'].touched && getemail('invalid')==true">Email is not valid!</span>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="number" placeholder="Phone" [formControl]="dataForm.controls['phone']">
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" id="subject" placeholder="Subject" [formControl]="dataForm.controls['subject']">
-            <span class="has-error" *ngIf ="dataForm.controls['subject'].touched && !dataForm.controls['subject'].valid">Subject is Required !</span>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" id="textarea" rows="5" placeholder="Message" [formControl]="dataForm.controls['message']"></textarea>
-            <span class="has-error" *ngIf ="dataForm.controls['message'].touched && !dataForm.controls['message'].valid">Message is Required !</span>
-          </div>
-          <button type="submit" >Submit</button>
-        </form>
       </div>
     </div>
   </div>
 </div>
 
 
+<!-- <div class="container-fluid pageheaderblock">
+  <h2>Contact Us</h2>
+</div> -->
 
-<div class="container-fluid bottombannerblock2">
+<div class="container-fluid homebg contactuspage">
+  <div class="container-fluid contactusformblock contactusform-block1 redesign">  
+    <div class="container contentwrapper">
+      <div class="innerpageblock-wrapper-content-outer">
+        <div class="contactusformblockwrapper">
+          <div class="row row-flex">
+              <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 contactusformblockleft">
+                <div class="row row-flex">
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <!-- <div class="contactgirlimg">
+                      <img src="../../assets/images/contactgirlimg.png"/>
+                    </div> -->
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <div class="spiritconlogowrapper">
+                      <img src="../../assets/images/spiritconlogo-contactus.png"/>
+                    </div>
+
+                    <h2>Spirit Convention</h2>
+                    <h4>1661 N. Main Street<br>
+                      Tel: <a href="tel:+(801) 773-7243">(801) 773-7243</a></h4>
+                    <div class="sociallinks">
+                      <h5>Connect with us</h5>
+                      <ul class="list-inline">
+                        <li><a href="https://www.facebook.com/spiritconutah/" target="_blank"><img src="../../assets/images/icon-facebook.png"/></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 contactusformblockright">
+                <form role="form" novalidate [formGroup]="dataForm" (ngSubmit)="dosubmit(dataForm.value)">
+                  <h2>Contact Form</h2>
+                  <div class="forminnerwrapper">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name" [formControl]="dataForm.controls['name']">
+                      <span class="has-error" *ngIf ="dataForm.controls['name'].touched && !dataForm.controls['name'].valid">Name is Required !</span>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="email" placeholder="Email" [formControl]="dataForm.controls['email']">
+                      <span class="has-error" *ngIf ="dataForm.controls['email'].touched && getemail('blank')==true">Email is Required !</span>
+                      <span class="has-error" *ngIf ="dataForm.controls['email'].touched && getemail('invalid')==true">Email is not valid!</span>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="number" placeholder="Phone" [formControl]="dataForm.controls['phone']">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="subject" placeholder="Subject" [formControl]="dataForm.controls['subject']">
+                      <span class="has-error" *ngIf ="dataForm.controls['subject'].touched && !dataForm.controls['subject'].valid">Subject is Required !</span>
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="textarea" rows="5" placeholder="Message" [formControl]="dataForm.controls['message']"></textarea>
+                      <span class="has-error" *ngIf ="dataForm.controls['message'].touched && !dataForm.controls['message'].valid">Message is Required !</span>
+                    </div>
+                    <button type="submit"><span>Submit</span></button>
+                  </div>
+                  
+                </form>
+              </div>
+          </div>
+        </div>            
+      </div>     
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>
+
+
+<!-- <div class="container-fluid bottombannerblock2">
     <div class="bottombannerblock2-wrapper">
         <div class="row row-flex">
             <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
@@ -112,12 +137,11 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                <!--  <a class="banneryellowbtnsml" [routerLink]="['/boothtable']">Click here Now!</a>-->
                 <a class="banneryellowbtnsml" style="cursor: pointer" (click)="callmodalforagendamoalcom1()">Click here Now!</a>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <!--<div class="container-fluid bottombannerblock">
@@ -142,7 +166,7 @@
 </div>-->
 
 <!---new section added 2018-02-20---->
-<div class="container-fluid bottombannerblock3">
+<!-- <div class="container-fluid bottombannerblock3">
     <img src="../../assets/images/bottombannerblock3bgsml.jpg" class="bottombannerblock3bgsml">
     <div class="bottombannerblock3-wrapper">
         <div class="row">
@@ -151,16 +175,15 @@
                     <h3>If you are traveling to the convention we have you covered! Coming to SpiritCon from out of town is really simple!</h3>
                     <div class="h2wrapper">
                             <h2><span><a [routerLink]="['/travellodging']">PLEASE VISIT OUR TRAVEL AND LODGING PAGE TO LEARN MORE ABOUT COMING TO SPIRITCON FROM OUT OF STATE!</a></span></h2>
-                      <!--  <h2><span><a style="cursor: pointer" (click)="callmodalforagendamoalcom2()">PLEASE VISIT OUR TRAVEL AND LODGING PAGE TO LEARN MORE ABOUT COMING TO SPIRITCON FROM OUT OF STATE!</a></span></h2>-->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!---new section added 2018-02-20---->
 
-<app-footer></app-footer>
+
 
 <div *ngIf="isModalShown3" class="modal fade mybuynowModal" id="mybuynowModal" role="dialog" (onHidden)="onHidden()" bsModal #staticModal="bs-modal" [config]="{ show: true}" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog">
