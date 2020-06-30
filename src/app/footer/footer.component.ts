@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import {Http} from '@angular/http';
 import {Router, ActivatedRoute, Params} from '@angular/router';
 import {Commonservices} from '../app.commonservices' ;
@@ -21,12 +21,15 @@ export class FooterComponent implements OnInit {
     public emailerror;
     public serverurl;
 
+    windowScrolled: boolean;
+
     constructor( private _commonservices: Commonservices , private _http: Http) {
         this.emailerror = null;
         this.serverurl = _commonservices.url;
     }
 
   ngOnInit() {
+      
   }
     callforsubs() {
       console.log('ccal');
@@ -98,5 +101,30 @@ export class FooterComponent implements OnInit {
 
     callmodalforagendamoalcom1() {
         this.isModalShowncom1 = true;
+    }
+
+    @HostListener("window:scroll", [])
+
+   onWindowScroll() {
+       if (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop > 100) {
+           this.windowScrolled = true;
+       }
+       else if (this.windowScrolled && window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop < 10) {
+           this.windowScrolled = false;
+       }
+   }
+
+
+    scrollToTop() {
+        (function smoothscroll() {
+    
+            var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    
+            if (currentScroll > 0) {
+                window.requestAnimationFrame(smoothscroll);
+                window.scrollTo(0, currentScroll - (currentScroll / 8));
+            }
+    
+        })();
     }
 }

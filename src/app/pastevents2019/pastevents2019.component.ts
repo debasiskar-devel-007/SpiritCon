@@ -3,6 +3,7 @@ import {Commonservices} from '../app.commonservices' ;
 import {Http} from '@angular/http';
 import {DomSanitizer} from '@angular/platform-browser';
 import {NavigationEnd, Router} from '@angular/router';
+import { MetaService } from '@ngx-meta/core';
 
 @Component({
   selector: 'app-past-events2019',
@@ -25,7 +26,21 @@ export class PastEvents2019Component implements OnInit {
   public boothlist;
   public healerlist;
 
-  constructor(private _http: Http, private _commonservices: Commonservices, public _sanitizer: DomSanitizer, private router: Router) {
+  constructor(private _http: Http, private _commonservices: Commonservices, public _sanitizer: DomSanitizer, private router: Router, private readonly meta: MetaService) {
+
+    this.meta.setTitle('SpiritCon - Past Events 2019');
+    this.meta.setTag('og:description', 'SpiritCon was born from the need to have a local place for a witchy, Pagan, metaphysical,and healing oriented individual to participate in community and support structures.There is very little awareness to how large and diverse this of the individual, groups and community    at large. We aim to "open dialogue" and build trust and connections to better lead, guide and enhance the spiritual lives of those identifying under the "Pagan" banner.');
+    this.meta.setTag('twitter:description', 'SpiritCon was born from the need to have a local place for a witchy, Pagan, metaphysical,and healing oriented individual to participate in community and support structures.There is very little awareness to how large and diverse this of the individual, groups and community    at large. We aim to "open dialogue" and build trust and connections to better lead, guide and enhance the spiritual lives of those identifying under the "Pagan" banner.');
+    
+    this.meta.setTag('og:keyword', 'SpiritCon');
+    this.meta.setTag('twitter:keyword', 'SpiritCon');
+    this.meta.setTag('og:title', 'SpiritCon - Past Events 2019');
+    this.meta.setTag('twitter:title', 'SpiritCon - Past Events 2019');
+    this.meta.setTag('og:type', 'website');
+    this.meta.setTag('og:image', '../../assets/images/meta/logo-fb.jpg');
+    this.meta.setTag('twitter:image', '../../assets/images/meta/logo-twitter.jpg');
+
+
     this.serverurl = _commonservices.url;
     this.getspeakerlist(); // speaker and presenter both are same
     this.getBoothList();
@@ -90,8 +105,8 @@ export class PastEvents2019Component implements OnInit {
     }
     if (imagename == '[]') {
       // alert(1);
-      return 'http://www.spiritconvention.com/assets/images/logo-spiritconversation.png';
-      //  return '../../assets/images/logo-spiritconversation.png';
+      return 'http://www.spiritconvention.com/assets/images/home/logo.png';
+      //  return '../../assets/images/home/logo.png';
     }
     else {
       let imagenm = JSON.parse(imagename);

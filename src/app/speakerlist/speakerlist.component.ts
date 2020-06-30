@@ -170,8 +170,8 @@ export class SpeakerlistComponent implements OnInit {
     //     }
     //     if (filename == '[]') {
     //         // alert(1);
-    //         return '../../assets/images/logo-spiritconversation.png';
-    //       //  return 'http://www.spiritconvention.com/assets/images/logo-spiritconversation.png';
+    //         return '../../assets/images/home/logo.png';
+    //       //  return 'http://www.spiritconvention.com/assets/images/home/logo.png';
     //     }
     //     /* if (images!=null && images !='' && images.indexOf('[') < 0) {
     //          return '../../assets/images/' + images;

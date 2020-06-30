@@ -27,6 +27,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AddadminComponent } from './addadmin/addadmin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MetaModule } from '@ngx-meta/core';
 
 // import { CookieService } from 'angular2-cookie/services/cookies.service';
 import { CookieService } from 'ngx-cookie-service';
@@ -78,6 +79,21 @@ import { FileUploadModule } from 'file-upload-lib-influxiq';
 import {DemoMaterialModule} from '../app/material-module';
 
 
+// export function metaFactory(): MetaLoader {
+//   return new MetaStaticLoader({
+//     pageTitlePositioning: PageTitlePositioning.PrependPageTitle,
+//     pageTitleSeparator: ' - ',
+//     applicationName: 'SpritCon',
+//     defaults: {
+//       title: 'SpritCon',
+//       description: 'SpiritCon was born from the need to have a local place for a witchy, Pagan, metaphysical, and healing oriented individual to participate in community and support structures. There is very little awareness to how large and diverse this of the individual, groups and community at large. We aim to "open dialogue" and build trust and connections to better lead, guide and enhance the spiritual lives of those identifying under the "Pagan" banner.',
+//       'og:image': '',
+//       'og:type': 'website',
+//       'og:locale': 'en_US',
+//       'og:locale:alternate': 'en_US,nl_NL,tr_TR'
+//     }
+//   });
+// }
 
 @NgModule({
   declarations: [
@@ -117,6 +133,7 @@ import {DemoMaterialModule} from '../app/material-module';
 
   ],
   imports: [
+    MetaModule.forRoot(),
     BrowserModule,
     FormsModule,
     HttpModule,

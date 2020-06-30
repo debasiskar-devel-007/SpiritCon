@@ -1,116 +1,81 @@
-.banner-img1{background:url(../../assets/images/sponsor/sponsorbanner-img1-bg.jpg) no-repeat right 100% center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
-.homebg{background-image:url(../../assets/images/sponsor/sponsormainbg.jpg);background-position:top center;background-repeat:no-repeat;background-size:cover}
-
+.banner-img1{background:url(../../assets/images/sponsor/sponsorbanner-img1-bg.webp) no-repeat right 100% center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
+.homebg{background-image:url(../../assets/images/sponsor/sponsormainbg.webp);background-position:top center;background-repeat:no-repeat;background-size:cover}
 .redesign .contentwrapper{width:1600px;margin:0 auto;display:block}
-
-.bannerblockinnernew .bannerblockleft .bannerblockcontent h2 {margin: 17px 0 5px;}
-.bannerblockcontent h3 {margin: 0 0 0px !important;font-size: 19px;color: #fef013;}
-.bannerblockcontent h4 {margin: 0 0 13px;font-size: 19px;color:#a1fa24;}
-
-
-.newimgconblock_ami{width:100%;padding-top: 45px;padding-bottom: 26px;margin-bottom: 4px;}
+.bannerblockinnernew .bannerblockleft .bannerblockcontent h2{margin:17px 0 5px}
+.bannerblockcontent h3{margin:0!important;font-size:19px;color:#fef013}
+.bannerblockcontent h4{margin:0 0 13px;font-size:19px;color:#a1fa24}
+.newimgconblock_ami{width:100%;padding-top:45px;padding-bottom:26px;margin-bottom:4px}
 .newimgconblock_left{width:49%;float:left}
 .newimgconblock_right{width:49.6%;float:right}
-.CC_Shifflett{width:100%;display:flex;padding:1%;background:#fff;border-radius:10px;-moz-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);
-    -webkit-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);}
-.newimgconblock_span{width:100%;display:flex;padding:1%;background:#fff;border-radius:10px;-moz-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);
-    -webkit-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);}
+.CC_Shifflett{width:100%;display:flex;padding:1%;background:#fff;border-radius:10px;-moz-box-shadow:0 0 0 12px rgba(0,0,0,0.17);-webkit-box-shadow:0 0 0 12px rgba(0,0,0,0.17);box-shadow:0 0 0 12px rgba(0,0,0,0.17)}
+.newimgconblock_span{width:100%;display:flex;padding:1%;background:#fff;border-radius:10px;-moz-box-shadow:0 0 0 12px rgba(0,0,0,0.17);-webkit-box-shadow:0 0 0 12px rgba(0,0,0,0.17);box-shadow:0 0 0 12px rgba(0,0,0,0.17)}
 .Chad_Ledford_Pic{width:30.5%!important;margin-right:1%;border:solid 1px #ccc}
 .AllstateAd{width:68.5%;border:solid 1px #ccc}
-.he_Hidden_Sage{width:100%;display:flex;border-radius:10px;-moz-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);
-    -webkit-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);}
-.NorthStarMortgageAd2{width:100%;display:flex;border-radius:10px;-moz-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);
-    -webkit-box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);box-shadow: 0px 0px 0px 12px rgba(0,0,0,0.17);}
-
-.sponsorcontentbg{
-    background-image: 
-    url(../../assets/images/sponsor/contentbg1.png),
-    url(../../assets/images/sponsor/contentbg2.png),
-    url(../../assets/images/sponsor/contentbg3.png);
-  background-position:
-    top -35px left, 
-    top 14% right, 
-    bottom 10% left;
-  background-repeat:
-    no-repeat;
-}
-
-.newimgconblock_ami .contentwrapper{position: relative;}
-.newimgconblock_ami .contentwrapper .flameimg{position: absolute;bottom: 0;left: 10%;}
-
-.newimgconblock_ami .imgblock1{padding-left: 48% !important;padding-bottom: 57px;margin-left: -12px !important;}
-.newimgconblock_ami .imgblock2{padding-right: 50% !important;padding-bottom: 57px;margin-left: 12px !important;}
-.newimgconblock_ami .imgblock3{padding-right: 50% !important;padding-bottom: 57px;margin-left: 12px !important;}
-.newimgconblock_ami .imgblock4{padding-left: 48% !important;margin-left: -12px !important;}
-
-
+.he_Hidden_Sage{width:100%;display:flex;border-radius:10px;-moz-box-shadow:0 0 0 12px rgba(0,0,0,0.17);-webkit-box-shadow:0 0 0 12px rgba(0,0,0,0.17);box-shadow:0 0 0 12px rgba(0,0,0,0.17)}
+.NorthStarMortgageAd2{width:100%;display:flex;border-radius:10px;-moz-box-shadow:0 0 0 12px rgba(0,0,0,0.17);-webkit-box-shadow:0 0 0 12px rgba(0,0,0,0.17);box-shadow:0 0 0 12px rgba(0,0,0,0.17)}
+.sponsorcontentbg{background-image:url(../../assets/images/sponsor/contentbg1.webp),url(../../assets/images/sponsor/contentbg2.webp),url(../../assets/images/sponsor/contentbg3.webp);background-position:top -35px left,top 14% right,bottom 10% left;background-repeat:no-repeat}
+.newimgconblock_ami .contentwrapper{position:relative}
+.newimgconblock_ami .contentwrapper .flameimg{position:absolute;bottom:0;left:10%}
+.newimgconblock_ami .imgblock1{padding-left:48%!important;padding-bottom:57px;margin-left:-12px!important}
+.newimgconblock_ami .imgblock2{padding-right:50%!important;padding-bottom:57px;margin-left:12px!important}
+.newimgconblock_ami .imgblock3{padding-right:50%!important;padding-bottom:57px;margin-left:12px!important}
+.newimgconblock_ami .imgblock4{padding-left:48%!important;margin-left:-12px!important}
 @media(max-width:1800px) {
-.sponsorcontentbg {background-position: top -35px left -9%, top 14% right, bottom 10% left -15%; background-repeat: no-repeat;}
+.sponsorcontentbg{background-position:top -35px left -9%,top 14% right,bottom 10% left -15%;background-repeat:no-repeat}
 }
-
 @media(max-width:1700px) {
-    .sponsorcontentbg {background-position: top -35px left -18%, top 14% right, bottom 10% left -70%; background-repeat: no-repeat;}
+.sponsorcontentbg{background-position:top -35px left -18%,top 14% right,bottom 10% left -70%;background-repeat:no-repeat}
 }
-
 @media(max-width:1666px) {
 .redesign .contentwrapper{width:96%!important}
 .homebg{background-position:top 85% center!important}
 }
-
 @media(max-width:1600px) {
-.sponsorcontentbg {background-position: top -35px left -25%, top 14% right -30%, bottom 10% left -213%; background-repeat: no-repeat;}
+.sponsorcontentbg{background-position:top -35px left -25%,top 14% right -30%,bottom 10% left -213%;background-repeat:no-repeat}
 }
-
-
 @media(max-width:1540px) {
 .banner-img1{background-position:right 85% center}
 }
 @media(max-width:1500px) {
-.sponsorcontentbg {background-position: top -35px left -26%, top 14% right -90%, bottom 3% left -222px; background-repeat: no-repeat;}
+.sponsorcontentbg{background-position:top -35px left -26%,top 14% right -90%,bottom 3% left -222px;background-repeat:no-repeat}
 }
-
 @media(max-width:1440px) {
 .banner-img1{background-position:right 80% center}
 }
 @media(max-width:1400px) {
 .newimgconblock_left{width:48.8%}
-.sponsorcontentbg {background-position: top -65px left -40%, top 14% right -144px, bottom -5% left -292px;background-repeat: no-repeat;}
-.newimgconblock_ami .contentwrapper .flameimg {width: 315px;}
-.newimgconblock_ami .contentwrapper .flameimg img {max-width: 100%;}
+.sponsorcontentbg{background-position:top -65px left -40%,top 14% right -144px,bottom -5% left -292px;background-repeat:no-repeat}
+.newimgconblock_ami .contentwrapper .flameimg{width:315px}
+.newimgconblock_ami .contentwrapper .flameimg img{max-width:100%}
 }
 @media(max-width:1366px) {
 .banner-img1{background-position:right 75% center}
 }
 @media(max-width:1300px) {
 .newimgconblock_left{width:48.5%}
-.sponsorcontentbg {background-position: top -65px left -60%, top -7% right -225px, bottom -14% left -417px;background-repeat: no-repeat;}
+.sponsorcontentbg{background-position:top -65px left -60%,top -7% right -225px,bottom -14% left -417px;background-repeat:no-repeat}
 }
 @media(max-width:1280px) {
 .banner-img1{background-position:right 70% center}
 }
-
 @media(max-width:1199px) {
 .banner-img1{background-position:top right 15%!important;background-size:210%!important;padding:29px 0;margin-bottom:0;min-height:1px;padding-top:40%}
-.sponsorcontentbg {background-position: top -78px left -94%, top -10% right -259px, bottom -31% left -425px;background-repeat: no-repeat;}
+.sponsorcontentbg{background-position:top -78px left -94%,top -10% right -259px,bottom -31% left -425px;background-repeat:no-repeat}
 }
-
 @media(max-width:1100px) {
 .newimgconblock_left{width:100%;float:none}
 .newimgconblock_right{width:100%;float:none;margin-top:25px}
-/* .he_Hidden_Sage{margin:25px 0} */
 }
-
 @media(max-width:1040px) {
-.sponsorcontentbg{background-position: top -78px left -434%, top -10% right -309px, bottom -61% left -482px;background-repeat: no-repeat;}
+.sponsorcontentbg{background-position:top -78px left -434%,top -10% right -309px,bottom -61% left -482px;background-repeat:no-repeat}
 }
-
 @media(max-width:991px) {
-.sponsorcontentbg{background-image: none;}
-.newimgconblock_ami .contentwrapper .flameimg{display: none;}
-.newimgconblock_ami .imgblock1{padding-left: 15px !important;padding-bottom: 15px;margin-left: auto!important;padding-right: 15px !important;margin-right: auto!important;margin-bottom: 25px;}
-.newimgconblock_ami .imgblock2{padding-left: 15px !important;padding-bottom: 15px;margin-left: auto!important;padding-right: 15px !important;margin-right: auto!important;margin-bottom: 25px;}
-.newimgconblock_ami .imgblock3{padding-left: 15px !important;padding-bottom: 15px;margin-left: auto!important;padding-right: 15px !important;margin-right: auto!important;margin-bottom: 25px;}
-.newimgconblock_ami .imgblock4{padding-left: 15px !important;padding-bottom: 15px;margin-left: auto!important;padding-right: 15px !important;margin-right: auto!important;}
+.sponsorcontentbg{background-image:none}
+.newimgconblock_ami .contentwrapper .flameimg{display:none}
+.newimgconblock_ami .imgblock1{padding-left:15px!important;padding-bottom:15px;margin-left:auto!important;padding-right:15px!important;margin-right:auto!important;margin-bottom:25px}
+.newimgconblock_ami .imgblock2{padding-left:15px!important;padding-bottom:15px;margin-left:auto!important;padding-right:15px!important;margin-right:auto!important;margin-bottom:25px}
+.newimgconblock_ami .imgblock3{padding-left:15px!important;padding-bottom:15px;margin-left:auto!important;padding-right:15px!important;margin-right:auto!important;margin-bottom:25px}
+.newimgconblock_ami .imgblock4{padding-left:15px!important;padding-bottom:15px;margin-left:auto!important;padding-right:15px!important;margin-right:auto!important}
 }
 @media(max-width:540px) {
 .Chad_Ledford_Pic{width:auto!important;max-width:98%;margin:1%;margin-right:1%;float:none}

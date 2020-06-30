@@ -96,10 +96,10 @@
 .gotoblocknew .indexblock1contentleft h2{font-size:55px!important}
 .booth-table-block1 .titleheader h2.pagetitle strong{font-size:42px!important;line-height:42px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:55px!important}
-.spiritconsponsorblocknew .indexblock1contentleft {margin-left: 5%!important;}
-.sponsorbannerdesignarrow1 {left: 40px!important;width: 270px !important;}
-.sponsorbannerdesignarrow2 {right: 30%!important;}
-.contactusformblockwrapper {background-position: left 30% center !important;}
+.spiritconsponsorblocknew .indexblock1contentleft{margin-left:5%!important}
+.sponsorbannerdesignarrow1{left:40px!important;width:270px!important}
+.sponsorbannerdesignarrow2{right:30%!important}
+.contactusformblockwrapper{background-position:left 30% center!important}
 }
 @media(max-width:1620px) {
 .indexblock8new .indexblock1contentleft p{max-width:78%}
@@ -112,7 +112,6 @@
 .bottombannerblock3content h2:before{top:-33px!important}
 .bottombannerblock3{background:url(../images/bannerbootom3imgleft.png) left -13% center no-repeat,url(../images/bannerbootom3imgright.png) right -13% center no-repeat,url(../images/bottombannerblock3mainbg.jpg) center center no-repeat!important}
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:32px!important}
-/* .contactusformblockwrapper{width:96%!important} */
 .bottombannerblockcontent h2{font-size:56px!important;line-height:42px!important}
 .bottombannerblockcontent h3{font-size:22px!important;line-height:27px!important}
 .singleboothtablecontent .boothtabledttime ul li{font-size:12px!important}
@@ -141,7 +140,7 @@
 .indexblock4new .list-inline>li .bannerblackbtn,.indexblock4new .list-inline>li .bannerblackbtn:hover{font-size:20px;height:53px}
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:43px!important}
 .booth-table .indexblock2new{margin-top:-3%!important;background-position:left -25% top 20px!important}
-.sponsorbannerdesignarrow1 {left: 40px!important;width: 228px!important;}
+.sponsorbannerdesignarrow1{left:40px!important;width:228px!important}
 }
 @media(max-width:1560px) {
 .indexblock7new .indexblock1contentleft h2{font-size:44px!important;line-height:48px}
@@ -158,11 +157,10 @@
 .readers-table-block-bg{background-position:right -100px bottom!important}
 .gotoblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px}
 .gotoblocknew .indexblock1contentleft .clickherebtn{right:-18%}
-
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px}
-.spiritconsponsorblocknew .indexblock1contentleft .clickherebtn{right:-18%!important;}
-.spiritconsponsorblocknew .indexblock1contentleft {margin-left: 2%!important;}
-.sponsorbannerdesignarrow1 {left: 0!important;}
+.spiritconsponsorblocknew .indexblock1contentleft .clickherebtn{right:-18%!important}
+.spiritconsponsorblocknew .indexblock1contentleft{margin-left:2%!important}
+.sponsorbannerdesignarrow1{left:0!important}
 }
 @media(max-width:1500px) {
 .menudiv .navbar li{padding:0 16px}
@@ -209,15 +207,12 @@
 .booth-table .indexblock2new{margin-top:-4%!important;background-position:left -40% top 27px!important}
 .gotoblocknew .indexblock1contentleft h2{font-size:52px!important;line-height:52px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:52px!important;line-height:52px!important}
-.sponsorbannerdesignarrow1 {width: 200px!important;}
+.sponsorbannerdesignarrow1{width:200px!important}
 }
 @media(max-width:1480px) {
 .gotoblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:51px!important;line-height:51px!important}
-/* .sponsorbannerdesignarrow1 {left: -162px!important;width: 240px;} */
-.spiritconsponsorblocknew .indexblock1contentleft h3 {font-size: 22px!important;line-height: 24px!important;margin-top: 25px!important;}
-
-
+.spiritconsponsorblocknew .indexblock1contentleft h3{font-size:22px!important;line-height:24px!important;margin-top:25px!important}
 }
 @media(max-width:1440px) {
 .bottombannerblock3content h3{font-size:22px!important;line-height:28px!important}
@@ -237,7 +232,7 @@
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:40px!important}
 .gotoblocknew .indexblock1contentleft h2{font-size:47px!important;line-height:50px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:47px!important;line-height:50px!important}
-.sponsorbannerdesignarrow1 {width: 166px!important;}
+.sponsorbannerdesignarrow1{width:166px!important}
 }
 @media(max-width:1420px) {
 .indexblock1contentwrapper .indexblock1img1leftwrapper{flex:1 0 41%!important}
@@ -249,7 +244,7 @@
 .indexblock2new{background-position:right -41% top -5px!important;margin-top:-7%!important}
 .booth-table-block-bg{background-position:right 120% bottom!important}
 .readers-table-block-bg{background-position:right -8% bottom!important}
-.sponsorbannerdesignarrow1 {left: -170px!important;}
+.sponsorbannerdesignarrow1{left:-170px!important}
 }
 @media(max-width:1380px) {
 .getstarted2{font-size:20px!important}
@@ -263,8 +258,8 @@
 .indexblock2new{background-position:right -54% top -5px!important}
 .booth-table .indexblock2new{background-position:left -60% top 27px!important}
 .booth-table-block1-wrapper h3 span.triangle-bottom-left{left:-13px!important}
-.sponsorbannerdesignarrow1 {width: 135px!important;left: 1px!important;}
-.sponsorbannerdesignarrow2 {right: 31%!important;width: 56px!important;}
+.sponsorbannerdesignarrow1{width:135px!important;left:1px!important}
+.sponsorbannerdesignarrow2{right:31%!important;width:56px!important}
 }
 @media(max-width:1366px) {
 .bannerblockinner .banner-title strong{font-size:20px!important;line-height:24px!important}
@@ -298,7 +293,7 @@
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:25px!important}
 .booth-table-block1 .titleheader h2.pagetitle .subtxt{font-size:21px!important;line-height:21px!important}
 .booth-table-block1 .titleheader h2.pagetitle strong{font-size:36px!important;line-height:36px!important}
-.contactusformblockwrapper {background-position: left 38% center!important;}
+.contactusformblockwrapper{background-position:left 38% center!important}
 }
 @media(max-width:1320px) {
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:26px!important;line-height:30px!important}
@@ -332,10 +327,10 @@
 .indexblock7new{min-height:1px!important}
 .gotoblocknew .indexblock1contentleft h2{font-size:44px!important;line-height:45px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:44px!important;line-height:45px!important}
-.sponsorbannerdesignarrow1 {width: 110px!important;left: 4px!important;}
-.sponsorbannerdesignarrow3 {right: 0!important;width: 100px!important;}
-.convention-center-mapblock-img-wrapper {background-position: left top 45%!important;}
-.presenters-block1list-bg {background-position: right 180% bottom -6%!important;}
+.sponsorbannerdesignarrow1{width:110px!important;left:4px!important}
+.sponsorbannerdesignarrow3{right:0!important;width:100px!important}
+.convention-center-mapblock-img-wrapper{background-position:left top 45%!important}
+.presenters-block1list-bg{background-position:right 180% bottom -6%!important}
 }
 @media(max-width:1300px) {
 .bannerblocklefttravelbg .bannerblockcontent h4{max-width:82%!important}
@@ -406,7 +401,7 @@
 .indexblock1contentwrapper .contentcentered p{font-size:18px!important}
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:12px!important}
 .titleheader h2.pagetitle strong{font-size:28px!important;line-height:28px!important}
-.arrowdesigntop{display: none !important;}
+.arrowdesigntop{display:none!important}
 }
 @media(max-width:1260px) {
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:37px!important;line-height:37px!important}
@@ -428,7 +423,7 @@
 .indexblock8new{margin-top:15px;margin-bottom:25px;min-height:200px}
 .gotoblocknew .indexblock1contentleft h2{font-size:43px!important;line-height:43px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:43px!important;line-height:43px!important}
-.presenters-block1list-bg {background-position: right 130% bottom -6%!important;}
+.presenters-block1list-bg{background-position:right 130% bottom -6%!important}
 }
 @media(max-width:1220px) {
 .menudiv .navbar li{padding:0 10px!important}
@@ -442,7 +437,7 @@
 .indexblock5new .indexblock5lists li{font-size:15px!important;padding:8px!important}
 .indexblock1contentwrapper .indexblock1img1leftwrapper{height:96%}
 .titleheader h2.pagetitle strong{font-size:27px!important;line-height:27px!important}
-.contactusformblockwrapper {background-position: left 32% center!important;}
+.contactusformblockwrapper{background-position:left 32% center!important}
 }
 @media(max-width:1199px) {
 .bannerblockcontent h4{margin:0 0 15px!important}
@@ -643,40 +638,39 @@
 .booth-table-block1 .titleheader h2.pagetitle strong{font-size:33px!important;line-height:36px!important}
 .booth-table-block1 .titleheader h2.pagetitle .subtxt{max-width:100%!important}
 .gotoblocknew{margin-top:0!important;min-height:1px}
-.gotoblocknewbg{flex-wrap:wrap;align-items:center!important;justify-content:center;text-align:center;background:url(../images/boothtable/gotoblocknewimgbg.jpg)!important;padding:15px 0!important;position:relative!important;border-radius:10px!important;background-size:240%!important;padding-top:35%!important;background-repeat:no-repeat!important;background-position:top right!important;background-color:#ec620a!important}
+.gotoblocknewbg{flex-wrap:wrap;align-items:center!important;justify-content:center;text-align:center;padding:15px 0!important;position:relative!important;border-radius:10px!important;background-size:240%!important;padding-top:35%!important;background-repeat:no-repeat!important;background-position:top right!important;background-color:#ec620a!important}
 .gotoblocknew .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
 .gotoblocknew .indexblock1contentleft h2{font-size:24px!important;line-height:28px!important}
 .gotoblocknew .indexblock1contentleft h2 br{display:none!important}
 .gotoblocknew .gotoblocknewbg .indexblock1contentimg{margin-top:15px!important;margin-bottom:15px!important}
-
 .spiritconsponsorblocknew{margin-top:0!important;min-height:1px}
-.spiritconsponsorblocknewbg{flex-wrap:wrap;align-items:center!important;justify-content:center !important;text-align:center;background:url(../images/sponsor/spiritconsponsorblocknewimgbg.jpg)!important;padding:15px 0!important;position:relative!important;border-radius:10px!important;background-size:240%!important;padding-top:35%!important;background-repeat:no-repeat!important;background-position: top left!important;background-color: #7dbb12!important;}
+.spiritconsponsorblocknewbg{flex-wrap:wrap;align-items:center!important;justify-content:center!important;text-align:center;padding:15px 0!important;position:relative!important;border-radius:10px!important;background-size:240%!important;padding-top:35%!important;background-repeat:no-repeat!important;background-position:top left!important;background-color:#7dbb12!important}
 .spiritconsponsorblocknew .indexblock1contentleft .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:24px!important;line-height:28px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2 br{display:none!important}
 .spiritconsponsorblocknew .spiritconsponsorblocknewbg .indexblock1contentimg{margin-top:15px!important;margin-bottom:15px!important}
-.spiritconsponsorblocknew .logohiddenstage{ margin-top: 20px !important;}
-.sponsorbannerdesignarrow1 {left: -8% !important;}
-.sponsorbannerdesignarrow2 {right: 0 !important; top: 50% !important;}
-.sponsorbannerdesignarrow3 {right: 25% !important;top: 87% !important;}
-.spiritconsponsorblocknew .indexblock1contentleft {background: none !important;}
-.spiritconsponsorblocknew .indexblock1contentleft h1{z-index: 9!important;padding: 12px 20px!important;background:-moz-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(254,141,20,1)),color-stop(100%,rgba(247,85,2,1)));background:-webkit-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-o-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-ms-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:linear-gradient(90deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe8d14',endColorstr='#f75502',GradientType=1)}
-.spiritconsponsorblocknew .indexblock1contentleft h3{background-color: #ffe708;padding: 20px !important;margin: 0 !important;margin-top: -10px !important;}
-.spiritconsponsorblocknew .indexblock1contentright .clickherebtn {position: inherit!important;right: 0!important;bottom: 0!important;margin: 20px auto;display: inline-block!important;}
-.sponsorbannerdesignarrow1{display:none !important}
-.sponsorbannerdesignarrow2{display:none !important}
-.sponsorbannerdesignarrow3{display:none !important}
-.spiritconsponsorblocknew .indexblock1contentleft {margin-left: auto!important;}
-.newimgconblock_span {flex-wrap: wrap !important;}
-.convention-center-mapblock-img-wrapper {background-position: top -158px left !important;padding-top: 85% !important;background-size: 125% !important;}
-.convention-center-mapblock-img-bottom {width: 100% !important;margin-left: auto !important;}
-.convention-center-mapblock-img-wrapper img {padding: 10px !important;}
-.contactusformblockright .forminnerwrapper {padding: 23px 0 !important;}
-.contactusformblockright h2 {font-size: 44px !important;line-height: 44px !important;}
-
-.presenters-block1list-bg {background-position: bottom -6% center!important;padding-bottom: 78%!important;background-size: 128%;}
-
+.spiritconsponsorblocknew .logohiddenstage{margin-top:20px!important}
+.sponsorbannerdesignarrow1{left:-8%!important}
+.sponsorbannerdesignarrow2{right:0!important;top:50%!important}
+.sponsorbannerdesignarrow3{right:25%!important;top:87%!important}
+.spiritconsponsorblocknew .indexblock1contentleft{background:none!important}
+.spiritconsponsorblocknew .indexblock1contentleft h1{z-index:9!important;padding:12px 20px!important;background:-moz-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(254,141,20,1)),color-stop(100%,rgba(247,85,2,1)));background:-webkit-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-o-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:-ms-linear-gradient(360deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);background:linear-gradient(90deg,rgba(254,141,20,1) 0%,rgba(247,85,2,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe8d14',endColorstr='#f75502',GradientType=1)}
+.spiritconsponsorblocknew .indexblock1contentleft h3{background-color:#ffe708;padding:20px!important;margin:0!important;margin-top:-10px!important}
+.spiritconsponsorblocknew .indexblock1contentright .clickherebtn{position:inherit!important;right:0!important;bottom:0!important;margin:20px auto;display:inline-block!important}
+.sponsorbannerdesignarrow1{display:none!important}
+.sponsorbannerdesignarrow2{display:none!important}
+.sponsorbannerdesignarrow3{display:none!important}
+.spiritconsponsorblocknew .indexblock1contentleft{margin-left:auto!important}
+.newimgconblock_span{flex-wrap:wrap!important}
+.convention-center-mapblock-img-wrapper{background-position:top -158px left!important;padding-top:85%!important;background-size:125%!important}
+.convention-center-mapblock-img-bottom{width:100%!important;margin-left:auto!important}
+.convention-center-mapblock-img-wrapper img{padding:10px!important}
+.contactusformblockright .forminnerwrapper{padding:23px 0!important}
+.contactusformblockright h2{font-size:44px!important;line-height:44px!important}
+.presenters-block1list-bg{background-position:bottom -6% center!important;padding-bottom:78%!important;background-size:128%}
 }
+
+    
 @media(max-width:1110px) {
 .bannerblockleft .list-inline > li{display:inline-block!important;padding-right:0!important;padding-left:0!important;margin-top:10px!important}
 .indexblock6new .indexblock1contentleft .indexblock2contentimg{margin-top:25px}
@@ -713,9 +707,9 @@
 .contactusformblockleft h5{text-align:center!important}
 .contactgirlimg{margin-left:auto!important;margin-right:auto!important}
 .contactusformblock{height:auto!important}
-.contactusformblockleft .row-flex [class*="col-"]{text-align:center!important;padding: 5px 0!important;}
+.contactusformblockleft .row-flex [class*="col-"]{text-align:center!important;padding:5px 0!important}
 .contactusformblockwrapper .spiritconlogowrapper{margin:0 auto!important}
-.contactusformblockright form{margin-left:auto!important;width: 96%;margin-right: auto;}
+.contactusformblockright form{margin-left:auto!important;width:96%;margin-right:auto}
 .contactusformblockright h2{text-align:center!important}
 .contactusformblockwrapper button[type="submit"]{float:none!important;margin-top:5px!important}
 .bottombannerblockcontent{text-align:left!important;margin-left:auto!important;border-top:5px solid #3b332c!important;padding-left:0!important;border-left:0 solid #3b332c!important;text-align:center!important;padding-top:18px!important}
@@ -730,13 +724,15 @@
 .footermenu ul{text-align:center!important}
 .footermenu .list-inline>li{margin-bottom:10px!important}
 .newlettercontent{text-align:center!important;margin-top:0!important;margin-bottom:10px!important}
-.convention-center-mapblock-img-wrapper {background-position: top -35px left !important;padding-top: 92% !important;background-size: 120% !important;}
-
-.contactusformblockright .forminnerwrapper {padding: 23px 0 0 0;}
-.contactusformblockwrapper {background-position: left bottom -10% !important;background-color: #fafbf6 !important;background-size: 270% !important;position: relative;overflow: hidden;border-radius: 10px;padding-bottom: 70%;}
-.contactusformblockwrapper button[type="submit"] {padding: 15px !important;width: 100%;}
-.presenters-block1list-bg {background-position: bottom -3% center!important;}
+.convention-center-mapblock-img-wrapper{background-position:top -35px left!important;padding-top:92%!important;background-size:120%!important}
+.contactusformblockright .forminnerwrapper{padding:23px 0 0}
+.contactusformblockwrapper{background-position:left bottom -10%!important;background-color:#fafbf6!important;background-size:270%!important;position:relative;overflow:hidden;border-radius:10px;padding-bottom:70%}
+.contactusformblockwrapper button[type="submit"]{padding:15px!important;width:100%}
+.presenters-block1list-bg{background-position:bottom -3% center!important}
 }
+
+   
+
 @media (max-width:800px) {
 .indexblock3new .list-inline>li{width:49%!important;margin:1% .5%}
 .tbodydivnew{display:block!important}
@@ -748,8 +744,10 @@
 #no-more-tables tr{border:5px solid #ccc!important}
 #no-more-tables td{border:none!important;border-bottom:1px solid #eee!important;position:relative!important;padding-left:50%!important;white-space:normal!important;text-align:left!important}
 #no-more-tables table{padding:0!important}
-#no-more-tables td:before{position:absolute!important;top:0!important;left:0!important;width:48%!important;white-space:nowrap!important;text-align:left!important;font-weight:700!important;background-color:#414243!important;height:100%!important;font-family:"RobotoMedium"!important;font-size:20px!important;text-transform:uppercase!important;padding:3px 10px!important;line-height:24px!important;color:#edefef!important;content:attr(data-title)!important;white-space:normal!important}
+#no-more-tables td:before{position:absolute!important;top:0!important;left:0!important;width:48%!important;white-space:nowrap!important;text-align:left!important;font-weight:500!important;background-color:#414243!important;height:100%!important;font-family:"RobotoMedium"!important;font-size:14px!important;text-transform:uppercase!important;padding:3px 10px!important;line-height:24px!important;color:#edefef!important;content:attr(data-title)!important;white-space:normal!important}
 }
+
+
 @media(max-width:767px) {
 .bannerblock.redesign .carousel-indicators{bottom:20px}
 .banner-title strong{font-size:30px!important;line-height:30px!important}
@@ -773,14 +771,14 @@
 .bannerblock.bannerblockinnernew .list-inline li{width:49%!important;height:auto!important;border:0 solid #fff!important;padding:0!important;margin:.5%!important}
 .presenters-block1-wrapper h2 span.subtxt{font-size:22px!important;line-height:normal!important}
 .booth-table-block1 .titleheader h2.pagetitle .subtxt{font-size:18px!important;line-height:21px!important}
-.reader-table-block1 h3.pageblocktitle {width: 85%!important;}
-.spiritconsponsorblocknew .indexblock1contentleft h3 br{display:none !important}
-.spiritconsponsorblocknew .indexblock1contentleft h1 {font-size: 48px !important;line-height: 48px !important;}
-.convention-center-mapblock-img-wrapper-top {flex-wrap: wrap !important;}
-.convention-center-mapblock-img-wrapper-top img.leftimg {margin-right: auto !important;width: 100% !important;margin-bottom: 15px !important;}
-.convention-center-mapblock-img-wrapper-top img.rightimg {width: 100% !important;}
-.indexblock9new .indexblock1contentimg{margin-bottom: 0px!important;}
-.presenters-block1list-bg {padding-bottom: 70%!important;background-position: bottom -2% center!important;}
+.reader-table-block1 h3.pageblocktitle{width:85%!important}
+.spiritconsponsorblocknew .indexblock1contentleft h3 br{display:none!important}
+.spiritconsponsorblocknew .indexblock1contentleft h1{font-size:48px!important;line-height:48px!important}
+.convention-center-mapblock-img-wrapper-top{flex-wrap:wrap!important}
+.convention-center-mapblock-img-wrapper-top img.leftimg{margin-right:auto!important;width:100%!important;margin-bottom:15px!important}
+.convention-center-mapblock-img-wrapper-top img.rightimg{width:100%!important}
+.indexblock9new .indexblock1contentimg{margin-bottom:0!important}
+.presenters-block1list-bg{padding-bottom:70%!important;background-position:bottom -2% center!important}
 }
 @media(max-width:640px) {
 .bannerblocklefttravelbg .bannerblockcontent ul{display:inline-block!important;margin-top:0!important}
@@ -790,13 +788,14 @@
 .indexblock1contentimg{width:90%!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:22px!important;line-height:26px!important}
 .bannerblockcontent h4{margin:10px 0 20px!important}
-.convention-center-mapblock-img-wrapper-top img.leftimg {margin-bottom: 10px !important;}
-.contactusformblockwrapper {background-position: left bottom -7% !important;}
-.contactusformblockright .forminnerwrapper {padding: 23px 0 0 0 !important;}
-.contactusformblockright h2 {font-size: 40px !important;line-height: 40px !important;}
-.contactusformblockleft h5 {padding: 30px 0 10px !important;}
-.presenters-block1list-bg {padding-bottom: 78%!important;background-position: bottom -1% center!important;}
+.convention-center-mapblock-img-wrapper-top img.leftimg{margin-bottom:10px!important}
+.contactusformblockwrapper{background-position:left bottom -7%!important}
+.contactusformblockright .forminnerwrapper{padding:23px 0 0!important}
+.contactusformblockright h2{font-size:40px!important;line-height:40px!important}
+.contactusformblockleft h5{padding:30px 0 10px!important}
+.presenters-block1list-bg{padding-bottom:78%!important;background-position:bottom -1% center!important}
 }
+
 @media(max-width:540px) {
 .bottombannerblock3content h3{font-size:20px!important;line-height:24px!important}
 .bottombannerblock3content h2{font-size:24px!important;line-height:26px!important}
@@ -814,7 +813,7 @@
 .indexblock4lists.list-inline>li{width:99%!important;margin:1%}
 .getstarted2{font-size:18px!important;background-size:inherit!important}
 .travellodging-block1-wrapper h3{font-size:22px!important;text-align:center!important}
-.indexblock9new .indexblock1contentleft h2{font-size: 22px!important;line-height: 26px!important;text-align: center!important;max-width: 95%;margin-left: auto;margin-right: auto;}
+.indexblock9new .indexblock1contentleft h2{font-size:22px!important;line-height:26px!important;text-align:center!important;max-width:95%;margin-left:auto;margin-right:auto}
 .travellodging-block1{padding-top:30px!important;padding-bottom:25px}
 .bannerblockcontent ul.list-inline{margin:0!important}
 .bannerblock .bannerblackbtn,.bannerblock .bannerblackbtn:hover{height:auto!important;width:100%!important}
@@ -828,11 +827,12 @@ h3.pageblocktitle{font-size:20px!important;width:80%!important}
 .singlepresenterscontent .oval label{font-size:18px!important}
 .banner-title strong{font-size:24px!important;line-height:30px!important}
 .booth-table-block1 .titleheader h2.pagetitle strong{font-size:22px!important;line-height:26px!important}
-.indexblock1contentright{width: 100%!important;}
-.indexblock1contentright img{max-width: 90%!important;}
-.convention-center-mapblock-img-wrapper {padding-top: 86% !important;}
-.indexblock9new .indexblock1contentleft p {font-size: 18px!important;margin-left: auto !important;margin-right: auto !important;max-width: 96% !important;line-height: 24px !important;}
-.presenters-block1list-bg {background-position: bottom -1% center!important;}
+.indexblock1contentright{width:100%!important}
+.indexblock1contentright img{max-width:90%!important}
+.convention-center-mapblock-img-wrapper{padding-top:86%!important}
+.indexblock9new .indexblock1contentleft p{font-size:18px!important;margin-left:auto!important;margin-right:auto!important;max-width:96%!important;line-height:24px!important}
+.presenters-block1list-bg{background-position:bottom -1% center!important}
+.homenew_text2 :after{width:100%!important}
 }
 @media(max-width:480px) {
 .footermenu{margin-top:10px!important}
@@ -857,9 +857,9 @@ h3.pageblocktitle{font-size:20px!important;width:80%!important}
 .indexblock3new .indexblock1contentwrapper .contentcentered p{padding:0 10px!important}
 .indexblock2new .purplebg{width:100%!important}
 h3.pageblocktitle{font-size:20px!important}
-.convention-center-mapblock-img-wrapper-top img.leftimg {margin-bottom: 5px !important;}
-.contactusformblockright h2 {font-size: 32px !important;line-height: 32px !important;}
-.contactusformblockright form {padding: 15px 17px 17px 17px !important;}
+.convention-center-mapblock-img-wrapper-top img.leftimg{margin-bottom:5px!important}
+.contactusformblockright h2{font-size:32px!important;line-height:32px!important}
+.contactusformblockright form{padding:15px 17px 17px!important}
 }
 @media(max-width:360px) {
 .indexblock4contentwrapper ul li{display:block!important;padding-right:0!important;padding-left:inherit!important;width:100%!important;margin:0 auto 10px!important;text-align:center!important;display:block!important;float:none!important}
@@ -868,17 +868,13 @@ h3.pageblocktitle{font-size:20px!important}
 .indexblock3contentwrapper ul li{padding-right:0!important;padding-left:inherit!important;width:100%!important;margin:0 auto 10px!important;text-align:center!important;display:block!important;float:none!important}
 .videoblock{height:180px!important}
 .sociallinks ul{width:166px!important}
-.indexblock8new .indexblock1contentimgleft {width: 270px!important;}
-.contactusformblockwrapper {background-position: left bottom -5% !important;}
-.presenters-block1list-bg {background-size: 136% !important;padding-bottom: 70%!important;}
+.indexblock8new .indexblock1contentimgleft{width:270px!important}
+.contactusformblockwrapper{background-position:left bottom -5%!important}
+.presenters-block1list-bg{background-size:136%!important;padding-bottom:70%!important}
 }
 @media screen and (max-width:1880px) {
 .spritcon_tab_wrapper .nav-tabs li{width:19.6%;height:auto;text-align:center;margin:.2%}
-.spritcon_tab_wrapper .nav-tabs li a{font-size: 18px !important;text-decoration:none;color:#20b2aa;text-transform:uppercase;text-align:center;display:block;width:100%;height:100%;background-size:cover}
-}
-@media screen and (max-width:1600px) {
-/* .spritcon_tab_wrapper .nav-tabs li{height:210px!important} */
-/* .spritcon_tab_wrapper .nav-tabs li a{height:210px!important;width:100vw!important;display:table-cell!important;text-align:center!important;vertical-align:middle!important} */
+.spritcon_tab_wrapper .nav-tabs li a{font-size:18px!important;text-decoration:none;color:#20b2aa;text-transform:uppercase;text-align:center;display:block;width:100%;height:100%;background-size:cover}
 }
 @media screen and (max-width:1426px) {
 .spritcon_tab_wrapper .nav-tabs li{width:19.6%;height:auto;text-align:center;margin:.2%}
@@ -922,24 +918,31 @@ h3.pageblocktitle{font-size:20px!important}
 .tab_gallery_content{margin:0}
 .tab_gallery_content .gallery_content{width:30%;height:265px}
 }
+@media(max-width:1024px) {
+    .tab_gallery_content .gallery_content {width: 32% !important;height: 224px !important;}   
+ }
+    
 @media screen and (max-width:820px) {
 .tab_gallery_content{margin:0}
-.tab_gallery_content .gallery_content{width:30%;height:250px}
 }
-@media screen and (max-width:776px) {
-.tab_gallery_content .gallery_content{width:45%;height:280px;margin:10px}
-}
+
 @media screen and (max-width:767px) {
 .headerwrapper .col-lg-6{float:none!important}
 .headerphonecon{width:330px;float:none;margin-left:auto;margin-right:auto}
-.tab_gallery_content .gallery_content{width:80%!important;height:auto!important;margin:0 0 23px!important;float:none!important;overflow:hidden!important}
 .singlepresenterscontent{padding:15px 0 0!important}
 .singlepresenterscontent .presenterdttime{position:inherit!important;bottom:0!important;left:0!important;width:100%!important;padding:5px!important}
 .singlepresenterscontent h4{margin-bottom:15px!important}
 }
+@media(max-width:767px) {
+    .tab_gallery_content .gallery_content {width: 49% !important;}
+    }
+    
+   
+@media(max-width:540px) {
+    .tab_gallery_content .gallery_content {width: 100% !important;}
+    }
 @media screen and (max-width:480px) {
 .tab_gallery_content{margin:0}
-.tab_gallery_content .gallery_content{width:90%!important}
 .headerphonecon a{color:#000;display:block}
 .headerphonecon{width:280px!important;text-align:center!important;background:url(../images/molumen-phone-icon.png) center top no-repeat!important;padding-left:0!important;padding-top:32px!important}
 }

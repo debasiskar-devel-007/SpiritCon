@@ -1,0 +1,85 @@
+.banner-img1{background:url(../../assets/images/pastevent/pasteventbanner-img1-bg.webp) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
+.homebg{background-image:url(../../assets/images/pastevent/pasteventmainbg.webp);background-position:top center;background-repeat:no-repeat;background-size:100% 100%}
+.redesign .contentwrapper{width:1600px;margin:0 auto;display:block}
+.bannerblockinnernew .bannerblockleft .bannerblockcontent h2{margin:17px 0 5px}
+.bannerblockcontent h3{margin:0!important;font-size:32px;line-height:32px;color:#fef013}
+.bannerblockcontent h4{margin:5px 0;font-size:32px;line-height:32px;color:#a1fa24}
+.singlepresenters{margin:0!important;vertical-align:top}
+.singleboothtablewrappertop h2{font-size:24px;line-height:24px}
+.reader-table-block1{margin-top:15px}
+.reader-table-block1 h3.pageblocktitle{width:700px}
+#ConventionCenter .indexblock2new.convention-center-block2{min-height:630px}
+#Vendors .indexblock2new.convention-center-block2{min-height: 630px;}
+.indexblock2new.convention-center-block2{margin-top:-15px!important;background-position:right 0 top 10px;padding:24px 0 0}
+.singleboothtablecontent .oval{padding:5px}
+.spritcon_tab_wrapper{margin:20px auto 0!important}
+.presenters-block1.pasteventpagetabcontent{padding-top:0;padding-bottom:22px;margin-bottom:4px}
+.agenda-block1{padding-top:0;padding-bottom:22px;margin-bottom:4px}
+.convention-center-block1{padding-top:0;padding-bottom:0}
+.booth-table-block1{padding-top:0;padding-bottom:0}
+.presenters-block1list-bg{background-position:right -41% bottom 2%;background-size:1000px}
+
+
+.indexblock1new.pasteventsponsornew {padding: 30px 0 0;min-height: 1px;}
+.pasteventsponsornew .indexblock1contentwrapper {align-items: center;}
+.indexblock1new.pasteventsponsornew .indexblock1contentwrapper .contentcentered {margin-top: 0;}
+.pasteventsponsornew .indexblock1contentwrapper .contentcentered h2 strong, .pasteventsponsornew .indexblock1contentwrapper .contentcentered h4 strong{font-size: 65px;line-height: 65px;}
+.pasteventsponsornew .indexblock1contentwrapper .contentcentered p {text-transform: uppercase;font-family: "RobotoMedium";}
+.sponsorparatxt{text-transform: none;margin-top: 20px;display: block;color: #f71902;}
+.sponsorparatxt a{margin-top: 17px;display: block;color: #000;}
+.newimgconblocknewtopblockleft{margin-right: 24px !important;}
+.pasteventmb20{margin-bottom: 40px;}
+.tab-content.pasteventmt10{margin-top: 20px;}
+
+.gallery_content.pasteventsbggallery{width: 49%;background: transparent;border: none;box-shadow:none}
+.tab_gallery_content .gallery_content.pasteventsbggallery img{height: auto;position: absolute;bottom: 0;}
+.booth-table-block-bg.tab-gallery-block-bg{background-image:none !important;background-color: #f1f1f1;box-shadow: 1px 1px 13px -2px rgba(135,131,135,0.76);margin-bottom: 30px;}
+
+.gallery_content.pasteventsbggallery:hover img {-ms-transform:scale(1);-webkit-transform:scale(1);transform:scale(1)}
+
+
+@media(max-width:1666px) {
+.redesign .contentwrapper{width:96%!important}
+.homebg{background-position:top center!important}
+.banner-img1{background-position:right 45% center}
+.presenters-block1list-bg{background-position:right -60% bottom 2%}
+}
+@media(max-width:1500px) {
+.presenters-block1list-bg{background-position:right -80% bottom 2%}
+}
+@media(max-width:1366px) {
+.bannerblockcontent h4{font-size:24px!important;line-height:24px}
+.bannerblockcontent h3{font-size:24px!important;line-height:24px;margin-bottom:10px!important;margin-top:10px!important}
+.presenters-block1list-bg{background-position:right -110% bottom 2%}
+}
+@media(max-width:1320px) {
+.presenters-block1list-bg{background-position:right -135% bottom 0!important}
+}
+@media(max-width:1240px) {
+.presenters-block1list-bg{background-position:right -190% bottom 0!important}
+}
+@media(max-width:1199px) {
+.banner-img1{background-position:top right!important;background-size:210%!important;padding:29px 0;margin-bottom:0;min-height:1px;padding-top:40%}
+.agenda-block1{padding-top:0!important}
+.indexblock2new.convention-center-block2{margin-top:0!important;margin-top:0!important;background-position:right 0 top 10px}
+.presenters-block1list-bg{background-position:bottom -6% center!important;padding-bottom:78%!important;background-size:128%}
+.booth-table-block-bg.tab-gallery-block-bg {padding-bottom: 15px !important;}
+}
+@media(max-width:991px) {
+.presenters-block1list-bg{background-position:bottom -3% center!important}
+}
+@media(max-width:767px) {
+.presenters-block1list-bg{padding-bottom:70%!important;background-position:bottom -2% center!important}
+.gallery_content.pasteventsbggallery {width: 100% !important;}
+}
+@media(max-width:640px) {
+.presenters-block1list-bg{padding-bottom:78%!important;background-position:bottom -1% center!important}
+}
+@media(max-width:540px) {
+.presenters-block1list-bg{background-position:bottom -1% center!important}
+.gallery_content.pasteventsbggallery {height: auto !important;}
+.tab_gallery_content .gallery_content.pasteventsbggallery img {height: auto;position: inherit;bottom: 0;}
+}
+@media(max-width:360px) {
+.presenters-block1list-bg{background-size:136%!important;padding-bottom:70%!important}
+}

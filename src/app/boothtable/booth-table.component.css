@@ -1,5 +1,5 @@
-.banner-img1{background:url(../../assets/images/boothtable/boothtablebanner-img1-bg.jpg) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
-.homebg{background-image:url(../../assets/images/boothtable/boothtablemainbg.jpg);background-position:top center;background-repeat:no-repeat;background-size:cover}
+.banner-img1{background:url(../../assets/images/boothtable/boothtablebanner-img1-bg.webp) no-repeat right center;background-size:cover;padding:12px 0;margin-bottom:0;min-height:1px}
+.homebg{background-image:url(../../assets/images/boothtable/boothtablemainbg.webp);background-position:top center;background-repeat:no-repeat;background-size:cover}
 .redesign .contentwrapper{width:1600px;margin:0 auto;display:block}
 @media(max-width:1800px) {
 .banner-img1{background-position:right 30% center}
