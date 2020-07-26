@@ -80,7 +80,7 @@ export class IndexComponent implements OnInit {
     }
 
     homemodal() {
-        this.isModalShownHOME = true;
+        this.isModalShownHOME = false;
     }
     callmodalforagenda() {
         this.isModalShown = true;

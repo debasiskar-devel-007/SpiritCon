@@ -141,6 +141,7 @@
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:43px!important}
 .booth-table .indexblock2new{margin-top:-3%!important;background-position:left -25% top 20px!important}
 .sponsorbannerdesignarrow1{left:40px!important;width:228px!important}
+.indexblock8new .indexblock1contentleft h2 {font-size: 34px!important;}
 }
 @media(max-width:1560px) {
 .indexblock7new .indexblock1contentleft h2{font-size:44px!important;line-height:48px}
@@ -151,7 +152,7 @@
 .indexblock4new{background-position:top -9px right -23%!important}
 .indexblock7new .indexblock1contentleft p{font-size:21px!important}
 .indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0 19px 0 0 !important}
-.indexblock8new .indexblock1contentleft h2{font-size:32px!important}
+.indexblock8new .indexblock1contentleft h2{font-size:31px!important}
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:35px!important}
 .booth-table-block-bg{background-position:right -100px bottom!important}
 .readers-table-block-bg{background-position:right -100px bottom!important}
@@ -199,7 +200,7 @@
 .indexblock7new .indexblock1contentleft p{font-size:19px!important}
 .indexblock7new .indexblock1contentleft h2{font-size:38px!important;line-height:45px!important}
 .indexblock8new .indexblock1contentleft p{max-width:93%!important}
-.indexblock8new .indexblock1contentimgleft{width:270px!important}
+.indexblock8new .indexblock1contentimgleft{width:260px!important}
 .indexblock8new .indexblock1contentleft{padding:15px 15px 25px 26% !important}
 .clickherebtn,.clickherebtn:hover{font-size:18px!important}
 .bannerblock.bannerblockinnernew .bannerblackbtn,.bannerblock.bannerblockinnernew .bannerblackbtn:hover{font-size:18px!important;padding:13px 12px!important;height:51px!important}
@@ -250,8 +251,8 @@
 .getstarted2{font-size:20px!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:41px!important}
 .indexblock7new .indexblock1contentleft p{font-size:18px!important;line-height:normal!important}
-.indexblock8new .indexblock1contentleft p{font-size:22px!important;line-height:24px!important}
-.indexblock8new .indexblock1contentleft h2{font-size:30px!important;line-height:34px!important}
+.indexblock8new .indexblock1contentleft p{font-size:21px!important;line-height:24px!important}
+.indexblock8new .indexblock1contentleft h2{font-size:29px!important;line-height:34px!important}
 .indexblock9new .indexblock1contentimg{width:35%!important}
 .indexblock2new .purplebg{padding:6px!important;font-size:44px!important;line-height:45px!important;font-size:35px!important}
 .triangle-bottom-left{left:70%!important}
@@ -260,6 +261,7 @@
 .booth-table-block1-wrapper h3 span.triangle-bottom-left{left:-13px!important}
 .sponsorbannerdesignarrow1{width:135px!important;left:1px!important}
 .sponsorbannerdesignarrow2{right:31%!important;width:56px!important}
+.indexblock8new .indexblock1contentimgleft {width: 251px!important;}
 }
 @media(max-width:1366px) {
 .bannerblockinner .banner-title strong{font-size:20px!important;line-height:24px!important}
@@ -294,6 +296,7 @@
 .booth-table-block1 .titleheader h2.pagetitle .subtxt{font-size:21px!important;line-height:21px!important}
 .booth-table-block1 .titleheader h2.pagetitle strong{font-size:36px!important;line-height:36px!important}
 .contactusformblockwrapper{background-position:left 38% center!important}
+.indexblock8new .indexblock1contentleft h2 {font-size: 28px!important;}
 }
 @media(max-width:1320px) {
 .bannerblocklefttravelbg .bannerblockcontent h2{font-size:26px!important;line-height:30px!important}
@@ -314,7 +317,7 @@
 .indexblock4new{background-position:top -9px right -62%!important}
 .indexblock1contentwrapper .contentcentered h2 strong{font-size:38px!important}
 .indexblock7new .indexblock1contentleft h2{font-size:36px!important;line-height:38px!important}
-.indexblock8new .indexblock1contentleft h2{font-size:26px!important;line-height:30px!important}
+.indexblock8new .indexblock1contentleft h2{font-size:24px!important;line-height:30px!important}
 .indexblock7new .indexblock1contentleft p{max-width:93%!important}
 .indexblock6new{background-position:top -34px right -25%!important}
 .bannerblockinner .bannerblocklefttravelbg p{font-size:18px!important}
@@ -348,6 +351,8 @@
 .booth-table-block-bg{background-position:right 100% bottom!important}
 .readers-table-block-bg{background-position:right -15% bottom!important}
 .booth-table .indexblock2new{background-position:left -95% top 27px!important}
+.indexblock8new .indexblock8left .clickherebtn {bottom: 40px;}
+.indexblock2new .purplebg {width: 74%;}
 }
 @media(max-width:1280px) {
 .bottombannerblock3-wrapper{width:61%!important}
@@ -416,9 +421,9 @@
 .bannerblockinner .bannerblockcontent ul.list-inline{margin-top:4px!important}
 .bannerblockinner .bannerblockcontent h2{margin:0 0 3px!important}
 .indexblock7new .indexblock1contentleft h2{font-size:34px!important;line-height:36px!important}
-.indexblock8new .indexblock1contentleft h2{font-size:24px!important;line-height:30px!important}
+.indexblock8new .indexblock1contentleft h2{font-size: 23px!important;line-height: 30px!important;}
 .indexblock8new .indexblock1contentleft p{font-size:18px!important;line-height:24px!important}
-.indexblock8new .indexblock1contentimgleft{width:255px!important}
+.indexblock8new .indexblock1contentimgleft{width: 240px!important;bottom: -23px!important;}
 .clickherebtn,.clickherebtn:hover{font-size:17px!important}
 .indexblock8new{margin-top:15px;margin-bottom:25px;min-height:200px}
 .gotoblocknew .indexblock1contentleft h2{font-size:43px!important;line-height:43px!important}
