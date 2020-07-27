@@ -152,7 +152,7 @@
 .indexblock4new{background-position:top -9px right -23%!important}
 .indexblock7new .indexblock1contentleft p{font-size:21px!important}
 .indexblock6new .indexblock1contentwrapper .contentcentered p{padding:0 19px 0 0 !important}
-.indexblock8new .indexblock1contentleft h2{font-size:31px!important}
+.indexblock8new .indexblock1contentleft h2{font-size:30px!important}
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:35px!important}
 .booth-table-block-bg{background-position:right -100px bottom!important}
 .readers-table-block-bg{background-position:right -100px bottom!important}
@@ -234,6 +234,7 @@
 .gotoblocknew .indexblock1contentleft h2{font-size:47px!important;line-height:50px!important}
 .spiritconsponsorblocknew .indexblock1contentleft h2{font-size:47px!important;line-height:50px!important}
 .sponsorbannerdesignarrow1{width:166px!important}
+.indexblock9new .indexblock1contentleft p {font-size: 20px !important;}
 }
 @media(max-width:1420px) {
 .indexblock1contentwrapper .indexblock1img1leftwrapper{flex:1 0 41%!important}
@@ -289,7 +290,7 @@
 .indexblock3new{margin-top:-10%!important}
 .indexblock4new{background-position:top -9px right -51%!important}
 .indexblock9bg{background-position:left 75% center!important}
-.indexblock9new .indexblock1contentleft p{font-size:20px!important}
+.indexblock9new .indexblock1contentleft p {font-size: 18px!important;}
 .titleheader h2.pagetitle strong{font-size:31px!important;line-height:31px!important}
 .presenters-block1-wrapper h2 span.subtxt{font-size:24px!important;line-height:24px!important}
 .indexblock2new .indexblock1contentleft .clickherebtn{bottom:25px!important}
@@ -784,6 +785,7 @@
 .convention-center-mapblock-img-wrapper-top img.rightimg{width:100%!important}
 .indexblock9new .indexblock1contentimg{margin-bottom:0!important}
 .presenters-block1list-bg{padding-bottom:70%!important;background-position:bottom -2% center!important}
+.indexblock9new .indexblock1contentleft p {font-size: 21px!important;}
 }
 @media(max-width:640px) {
 .bannerblocklefttravelbg .bannerblockcontent ul{display:inline-block!important;margin-top:0!important}
