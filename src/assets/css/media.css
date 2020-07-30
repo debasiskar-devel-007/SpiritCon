@@ -552,7 +552,8 @@
 .bannerblock .bannerblockleft .bannerblockcontent{position:inherit!important;top:0!important;left:0!important;transform:inherit!important;width:96%!important;text-align:center!important;margin-top:0!important;margin-left:auto!important;margin-right:auto!important}
 .bannerblock .item.active .d-block.w-100.bannerimg{width:100%}
 .bannerblock .bannerblockleft .bannerblockcontent .logobanner{max-width:100%;margin-bottom:20px!important}
-.slidermovecls{position:absolute!important;right:20px!important;bottom:inherit!important;width:160px!important;top:94px}
+.slidermovecls{position: absolute!important;right: 20px!important;width: 160px!important;bottom: 0 !important;}
+#myCarousel .carousel.slide.carousel-fade{padding-bottom: 55px !important;}
 .indexblock1contentwrapper{position:relative!important;height:auto!important}
 .indexblock1img1leftwrapper{position:inherit!important;top:0!important;left:0!important;transform:inherit!important;width:100%!important;text-align:center!important}
 .indexblock1contentwrapper .contentcentered{position:inherit!important;top:0!important;left:0!important;transform:inherit!important;width:100%!important;text-align:center!important;text-align:center!important;margin-top:0!important;margin-left:auto!important;margin-right:auto!important;flex:1 1 100%}
@@ -840,6 +841,7 @@ h3.pageblocktitle{font-size:20px!important;width:80%!important}
 .indexblock9new .indexblock1contentleft p{font-size:18px!important;margin-left:auto!important;margin-right:auto!important;max-width:96%!important;line-height:24px!important}
 .presenters-block1list-bg{background-position:bottom -1% center!important}
 .homenew_text2 :after{width:100%!important}
+.getstarted {margin: 0 auto!important;}
 }
 @media(max-width:480px) {
 .footermenu{margin-top:10px!important}

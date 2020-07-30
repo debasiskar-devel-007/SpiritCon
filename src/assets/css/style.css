@@ -545,6 +545,7 @@ h3.pageblocktitle{font-family:"RobotoMedium";font-size:36px;text-transform:upper
 .travellodging-lists h3{font-family:"RobotoRegular";font-size:24px;margin:0;line-height:28px;text-transform:inherit;text-align:left;margin-top:18px}
 .travellodging-lists h3 a{color:#fc4b09;font-weight:400;white-space:normal;word-break:break-word}
 .travellodging-lists-single{border:1px solid #e5e5e5;padding:10px;border-radius:5px;margin-bottom:24px}
+.travellodging-lists-single .row-flex{align-items: center;}
 .travellodging-lists .travellodging-lists-single:last-of-type{margin-bottom:0!important}
 .singletravellodging:nth-child(3) .travellodging-lists{margin-bottom:0!important}
 .travellodging-lists-single .travellodgescreenimg{width:100%}
