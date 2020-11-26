@@ -66,6 +66,7 @@ export class SpeakeraddComponent implements OnInit {
             year_2018: [''],
             year_2019: [''],
             year_2020: [''],
+            year_2021: [''],
         });
         this.zone = new NgZone({enableLongStackTrace: false});
         this.basicOptions = {
@@ -136,6 +137,7 @@ export class SpeakeraddComponent implements OnInit {
             let l_year_2018;
             let l_year_2019;
             let l_year_2020;
+            let l_year_2021;
             if(formval.year_2018==true){
                 l_year_2018=1;
             }else{
@@ -152,6 +154,14 @@ export class SpeakeraddComponent implements OnInit {
             }else{
                 l_year_2020 = 0;
             }
+
+
+            if(formval.year_2021==true){
+                l_year_2021=1;
+            }else{
+                l_year_2021 = 0;
+            }
+
             let link = this.serverurl + 'addspeaker';
             let data = {
                 speaker_name: formval.speaker_name,
@@ -164,6 +174,7 @@ export class SpeakeraddComponent implements OnInit {
                 year_2018: l_year_2018,
                 year_2019: l_year_2019,
                 year_2020: l_year_2020,
+                year_2021: l_year_2021,
                 image:formval.inventory_image
             };
             console.log(data);

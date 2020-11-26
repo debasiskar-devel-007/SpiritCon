@@ -45,6 +45,7 @@ export class VendoreditComponent implements OnInit {
             year_2018: [''],
             year_2019: [''],
             year_2020: [''],
+            year_2021: [''],
 
         });
     }
@@ -66,6 +67,7 @@ export class VendoreditComponent implements OnInit {
                     let l_year_2018;
                     let l_year_2019;
                     let l_year_2020;
+                    let l_year_2021;
                      console.log(result.description);
                     let userdet = result.res[0];
                     console.log('userdet',userdet);
@@ -87,6 +89,12 @@ export class VendoreditComponent implements OnInit {
                         l_year_2020 = false;
                     }
 
+                    if(userdet.year_2021==1){
+                        l_year_2021=true;
+                    }else{
+                        l_year_2021 = false;
+                    }
+
                     (<FormControl>this.dataForm.controls['booth_no']).setValue(userdet.booth_no);
                     (<FormControl>this.dataForm.controls['business_name']).setValue(userdet.business_name);
                     (<FormControl>this.dataForm.controls['person_name']).setValue(userdet.person_name);
@@ -96,6 +104,7 @@ export class VendoreditComponent implements OnInit {
                     (<FormControl>this.dataForm.controls['year_2018']).setValue(l_year_2018);
                     (<FormControl>this.dataForm.controls['year_2019']).setValue(l_year_2019);
                     (<FormControl>this.dataForm.controls['year_2020']).setValue(l_year_2020);
+                    (<FormControl>this.dataForm.controls['year_2021']).setValue(l_year_2021);
                     // (this.ckeditorContent.setValue(userdet.description);
                 }else {
                      this.router.navigate(['/vendorlist']);
@@ -118,6 +127,7 @@ export class VendoreditComponent implements OnInit {
             let l_year_2018;
             let l_year_2019;
             let l_year_2020;
+            let l_year_2021;
             if(formval.year_2018==true){
                 l_year_2018=1;
             }else{
@@ -134,6 +144,12 @@ export class VendoreditComponent implements OnInit {
             }else{
                 l_year_2020 = 0;
             }
+
+            if(formval.year_2021==true){
+                l_year_2021=1;
+            }else{
+                l_year_2021 = 0;
+            }
             let link= this.serverurl + 'editvendor';
       // let data = {id: this.id, booth_no: formval.booth_no, business_name: formval.business_name, description: formval.description, email: formval.email, phone: formval.phone, website: formval.website};
             let data = {
@@ -148,6 +164,7 @@ export class VendoreditComponent implements OnInit {
                 year_2018: l_year_2018,
                 year_2019: l_year_2019,
                 year_2020: l_year_2020,
+                year_2021: l_year_2021,
             };
             console.log(data);
             this._http.post(link, data)

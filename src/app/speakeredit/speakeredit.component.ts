@@ -74,7 +74,8 @@ export class SpeakereditComponent implements OnInit {
         /*    end_date_time: [''],*/
             year_2018: [''],
             year_2019: [''],
-            year_2020: ['']
+            year_2020: [''],
+            year_2021: ['']
         });
 
         console.log("aaaaaaaaaaaaa", this.dataForm );
@@ -126,6 +127,7 @@ export class SpeakereditComponent implements OnInit {
                     let year_2018_put ;
                     let year_2019_put ;
                     let year_2020_put ;
+                    let year_2021_put ;
                     if(userdet.year_2018==1){
                         year_2018_put = true;
                     }else{
@@ -141,6 +143,12 @@ export class SpeakereditComponent implements OnInit {
                     }else{
                         year_2020_put = false;
                     }
+
+                    if(userdet.year_2021==1){
+                        year_2021_put = true;
+                    }else{
+                        year_2021_put = false;
+                    }
                     this.ckeditorContent = userdet.description;
                     this.dataForm = this.fb.group({
                         speaker_name:[userdet.speaker_name],
@@ -152,6 +160,7 @@ export class SpeakereditComponent implements OnInit {
                         year_2018: year_2018_put,
                         year_2019: year_2019_put,
                         year_2020: year_2020_put,
+                        year_2021: year_2021_put,
 
                     });
                    (<FormControl>this.dataForm.controls['speaker_name']).setValue(userdet.speaker_name);
@@ -237,6 +246,7 @@ export class SpeakereditComponent implements OnInit {
         let l_year_2018;
         let l_year_2019;
         let l_year_2020;
+        let l_year_2021;
         if(formval.year_2018==true){
             l_year_2018=1;
         }else{
@@ -252,6 +262,12 @@ export class SpeakereditComponent implements OnInit {
             l_year_2020=1;
         }else{
             l_year_2020 = 0;
+        }
+
+        if(formval.year_2021==true){
+            l_year_2021=1;
+        }else{
+            l_year_2021 = 0;
         }
         console.log(this.dataForm.valid);
 
@@ -270,6 +286,7 @@ export class SpeakereditComponent implements OnInit {
                 year_2018: l_year_2018,
                 year_2019: l_year_2019,
                 year_2020: l_year_2020,
+                year_2021: l_year_2021,
                 image:formval.inventory_image
             };
             console.log(data);

@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators, FormControl, FormGroup } from '@angular/forms';
 import { Http } from '@angular/http';
 import { ActivatedRoute, Params, Router } from '@angular/router';
-import {Commonservices} from '../app.commonservices' ;
+import { Commonservices } from '../app.commonservices';
 
 @Component({
-  selector: 'app-healeredit',
-  templateUrl: './healeredit.component.html',
-  styleUrls: ['./healeredit.component.css'],
+    selector: 'app-healeredit',
+    templateUrl: './healeredit.component.html',
+    styleUrls: ['./healeredit.component.css'],
     providers: [Commonservices],
 })
 export class HealereditComponent implements OnInit {
-    public dataForm: FormGroup ;
+    public dataForm: FormGroup;
     public fb;
     public isSubmit;
     id: number;
@@ -44,44 +44,52 @@ export class HealereditComponent implements OnInit {
             year_2018: [''],
             year_2019: [''],
             year_2020: [''],
+            year_2021: [''],
 
         });
     }
     onChange(event: any) {
-        this.dataForm.patchValue({description: this.ckeditorContent});
+        this.dataForm.patchValue({ description: this.ckeditorContent });
 
     }
 
     getdetails() {
         let link = this.serverurl + 'healerdetails';
-        let data = {_id : this.id};
+        let data = { _id: this.id };
         this._http.post(link, data)
             .subscribe(res => {
                 let result = res.json();
                 console.log(result);
                 console.log(result.status);
-                if (result.status == 'success' && typeof(result) != 'undefined') {
+                if (result.status == 'success' && typeof (result) != 'undefined') {
                     let l_year_2018;
                     let l_year_2019;
                     let l_year_2020;
+                    let l_year_2021;
                     console.log(result.description);
                     let userdet = result.res[0];
-                    console.log('userdet',userdet);
+                    console.log('userdet', userdet);
                     this.ckeditorContent = userdet.description;
-                    if(userdet.year_2018==1){
-                        l_year_2018=true;
-                    }else{
+                    if (userdet.year_2018 == 1) {
+                        l_year_2018 = true;
+                    } else {
                         l_year_2018 = false;
                     }
-                    if(userdet.year_2019==1){
-                        l_year_2019=true;
-                    }else{
+                    if (userdet.year_2019 == 1) {
+                        l_year_2019 = true;
+                    } else {
                         l_year_2019 = false;
                     }
-                    if(userdet.year_2020==1){
-                        l_year_2020=true;
-                    }else{
+                    if (userdet.year_2020 == 1) {
+                        l_year_2020 = true;
+                    } else {
                         l_year_2020 = false;
+                    }
+
+                    if (userdet.year_2021 == 1) {
+                        l_year_2021 = true;
+                    } else {
+                        l_year_2021 = false;
                     }
                     (<FormControl>this.dataForm.controls['table_no']).setValue(userdet.table_no);
                     (<FormControl>this.dataForm.controls['business_name']).setValue(userdet.business_name);
@@ -91,8 +99,9 @@ export class HealereditComponent implements OnInit {
                     (<FormControl>this.dataForm.controls['year_2018']).setValue(l_year_2018);
                     (<FormControl>this.dataForm.controls['year_2019']).setValue(l_year_2019);
                     (<FormControl>this.dataForm.controls['year_2020']).setValue(l_year_2020);
-                }else {
-                     this.router.navigate(['/healerlist']);
+                    (<FormControl>this.dataForm.controls['year_2021']).setValue(l_year_2021);
+                } else {
+                    this.router.navigate(['/healerlist']);
                 }
             }, error => {
                 console.log('Ooops');
@@ -112,23 +121,31 @@ export class HealereditComponent implements OnInit {
             let l_year_2018;
             let l_year_2019;
             let l_year_2020;
-            if(formval.year_2018==true){
-                l_year_2018=1;
-            }else{
+            let l_year_2021;
+            if (formval.year_2018 == true) {
+                l_year_2018 = 1;
+            } else {
                 l_year_2018 = 0;
             }
-            if(formval.year_2019==true){
-                l_year_2019=1;
-            }else{
+            if (formval.year_2019 == true) {
+                l_year_2019 = 1;
+            } else {
                 l_year_2019 = 0;
             }
 
-            if(formval.year_2020==true){
-                l_year_2020=1;
-            }else{
+            if (formval.year_2020 == true) {
+                l_year_2020 = 1;
+            } else {
                 l_year_2020 = 0;
             }
-            let link= this.serverurl + 'edithealer';
+
+
+            if (formval.year_2021 == true) {
+                l_year_2021 = 1;
+            } else {
+                l_year_2021 = 0;
+            }
+            let link = this.serverurl + 'edithealer';
             let data = {
                 id: this.id,
                 table_no: formval.table_no,
@@ -140,6 +157,7 @@ export class HealereditComponent implements OnInit {
                 year_2018: l_year_2018,
                 year_2019: l_year_2019,
                 year_2020: l_year_2020,
+                year_2021: l_year_2021,
             };
             console.log(data);
             this._http.post(link, data)

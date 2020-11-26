@@ -36,6 +36,7 @@ export class VendoraddComponent implements OnInit {
             year_2018: [''],
             year_2019: [''],
             year_2020: [''],
+            year_2021: [''],
         });
   }
     onChange(event: any) {
@@ -59,6 +60,7 @@ export class VendoraddComponent implements OnInit {
             let l_year_2018;
             let l_year_2019;
             let l_year_2020;
+            let l_year_2021;
             if(formval.year_2018==true){
                 l_year_2018=1;
             }else{
@@ -75,6 +77,12 @@ export class VendoraddComponent implements OnInit {
             }else{
                 l_year_2020 = 0;
             }
+
+            if(formval.year_2021==true){
+                l_year_2021=1;
+            }else{
+                l_year_2021 = 0;
+            }
             let link = this.serverurl + 'addvendor';
             let data = {
                 booth_no: formval.booth_no,
@@ -87,6 +95,7 @@ export class VendoraddComponent implements OnInit {
                 year_2018: l_year_2018,
                 year_2019: l_year_2019,
                 year_2020: l_year_2020,
+                year_2021: l_year_2021,
             };
             console.log(data);
             this._http.post(link, data)

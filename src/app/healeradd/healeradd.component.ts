@@ -34,6 +34,7 @@ export class HealeraddComponent implements OnInit {
             year_2018: [''],
             year_2019: [''],
             year_2020: [''],
+            year_2021: [''],
         });
     }
     onChange(event: any) {
@@ -55,6 +56,7 @@ export class HealeraddComponent implements OnInit {
         let l_year_2018;
         let l_year_2019;
         let l_year_2020;
+        let l_year_2021;
         if(formval.year_2018==true){
             l_year_2018=1;
         }else{
@@ -70,6 +72,11 @@ export class HealeraddComponent implements OnInit {
         }else{
             l_year_2020 = 0;
         }
+        if(formval.year_2021==true){
+            l_year_2021=1;
+        }else{
+            l_year_2021 = 0;
+        }
         if (this.dataForm.valid && this.ckeditorContent != null) {
             console.log('inside dataformvalid');
             let link = this.serverurl + 'addhealer';
@@ -83,6 +90,7 @@ export class HealeraddComponent implements OnInit {
                 year_2018: l_year_2018,
                 year_2019: l_year_2019,
                 year_2020: l_year_2020,
+                year_2021: l_year_2021,
             };
             console.log(data);
             this._http.post(link, data)
