@@ -51,7 +51,7 @@ export class PresentersComponent implements OnInit {
         let link = this.serverurl + 'speakerlist1';
         let data = {
             // selected_year: '2019'
-            year_2020:1
+            year_2021:1
         }
         this._http.post(link,data)
             .subscribe(res => {
